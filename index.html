@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuninsDescartablestvj - Catálogo</title>
+
+<style>
+    :root {
+        --color-primario: #2c3e50;
+        --color-secundario: #3498db;
+        --color-checkbox: #27ae60;
+        --color-borde: #dee2e6;
+        --color-texto: #495057;
+        --color-texto-claro: #6c757d;
+        --color-blanco: #ffffff;
+        --sombra: 0 2px 8px rgba(0,0,0,0.08);
+        --radio: 12px;
+        --fuente: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: var(--fuente);
+        background: #f8f9fa;
+        color: var(--color-texto);
+        line-height: 1.6;
+    }
+    header {
+        background: var(--color-primario);
+        color: var(--color-blanco);
+        padding: 24px 32px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    header .contenido-header {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .logo-icono {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+    .logo-texto h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--color-blanco);
+        letter-spacing: 0.5px;
+    }
+    .logo-texto p {
+        font-size: 13px;
+        color: rgba(255,255,255,0.7);
+        margin-top: 2px;
+    }
+    .acciones-header {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+    .btn {
+        padding: 10px 18px;
+        border: none;
+        border-radius: var(--radio);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-decoration: none;
+    }
+    .btn-principal {
+        background: var(--color-secundario);
+        color: var(--color-blanco);
+    }
+    .btn-principal:hover {
+        background: #2980b9;
+        transform: translateY(-1px);
+    }
+    .btn-secundario {
+        background: transparent;
+        color: var(--color-blanco);
+        border: 2px solid rgba(255,255,255,0.4);
+    }
+    .btn-secundario:hover {
+        border-color: var(--color-blanco);
+        background: rgba(255,255,255,0.1);
+    }
+    .contenido-principal {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px 32px;
+    }
+    .buscador-section {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+    .buscador {
+        flex: 1;
+        min-width: 250px;
+        padding: 12px 16px;
+        border: 2px solid var(--color-borde);
+        border-radius: var(--radio);
+        font-size: 16px;
+        background: var(--color-blanco);
+        transition: border-color 0.2s;
+    }
+    .buscador:focus {
+        outline: none;
+        border-color: var(--color-secundario);
+    }
+    .buscador-label {
+        display: block;
+        font-size: 13px;
+        color: var(--color-texto-claro);
+        margin-bottom: 6px;
+        font-weight: 500;
+    }
+    .controles-botones {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    .btn-accion {
+        padding: 10px 16px;
+        border: 2px solid var(--color-borde);
+        border-radius: var(--radio);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        background: var(--color-blanco);
+    }
+    .btn-accion:hover {
+        border-color: var(--color-secundario);
+        color: var(--color-secundario);
+    }
+    .btn-accion.activo {
+        border-color: var(--color-secundario);
+        background: #eaf2f8;
+        color: var(--color-secundario);
+    }
+    .categorias {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+        border-bottom: 2px solid var(--color-borde);
+        padding-bottom: 0;
+    }
+    .categoria-boton {
+        padding: 10px 20px;
+        border: none;
+        border-radius: var(--radio) var(--radio) 0 0;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        background: var(--color-blanco);
+        color: var(--color-texto);
+        transition: all 0.2s;
+        position: relative;
+    }
+    .categoria-boton:hover {
+        background: var(--color-borde);
+    }
+    .categoria-boton.activo {
+        background: var(--color-secundario);
+        color: var(--color-blanco);
+    }
+    .categoria-boton .contador {
+        font-size: 12px;
+        opacity: 0.7;
+        margin-left: 6px;
+    }
+    .categoria-boton .icono {
+        margin-right: 6px;
+    }
+    .contenido-categoria {
+        display: none;
+        animation: fadeIn 0.3s;
+    }
+    .contenido-categoria.activo {
+        display: block;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .productos-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 16px;
+        margin-top: 16px;
+    }
+    .producto-card {
+        background: var(--color-blanco);
+        border: 1px solid var(--color-borde);
+        border-radius: var(--radio);
+        padding: 16px 20px;
+        box-shadow: var(--sombra);
+        transition: all 0.2s;
+    }
+    .producto-card:hover {
+        border-color: var(--color-secundario);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .producto-card.tickeable {
+        cursor: pointer;
+    }
+    .producto-card.tickeable:hover {
+        border-color: var(--color-checkbox);
+        box-shadow: 0 4px 12px rgba(39, 174, 96, 0.15);
+    }
+    .producto-checkbox {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+    }
+    .producto-checkbox input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        accent-color: var(--color-checkbox);
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    .producto-checkbox .checkbox-indicador {
+        font-size: 28px;
+        color: var(--color-texto-claro);
+        transition: color 0.2s;
+        flex-shrink: 0;
+    }
+    .producto-checkbox input[type="checkbox"]:checked ~ .checkbox-indicador {
+        color: var(--color-checkbox);
+    }
+    .producto-nombre {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--color-texto);
+        margin-bottom: 8px;
+        word-break: break-word;
+    }
+    .producto-precio {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .precio-item {
+        font-size: 14px;
+        color: var(--color-texto-claro);
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .precio-item .valor {
+        font-weight: 700;
+    }
+    .precio-minor { color: var(--color-secundario); }
+    .precio-major { color: #e67e22; }
+    .precio-sin-precio {
+        color: var(--color-texto-claro);
+        font-style: italic;
+    }
+    .producto-cantidad {
+        font-size: 12px;
+        color: var(--color-texto-claro);
+        margin-top: 4px;
+    }
+    .producto-cantidad span {
+        background: #e9ecef;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+    .resumen {
+        margin-top: 32px;
+        background: var(--color-blanco);
+        border: 1px solid var(--color-borde);
+        border-radius: var(--radio);
+        padding: 20px 24px;
+        box-shadow: var(--sombra);
+    }
+    .resumen-titulo {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--color-primario);
+        margin-bottom: 12px;
+    }
+    .resumen-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+    }
+    .resumen-item {
+        text-align: center;
+        padding: 12px;
+        background: #f8f9fa;
+        border-radius: var(--radio);
+    }
+    .resumen-item .valor {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--color-primario);
+    }
+    .resumen-item .label {
+        font-size: 13px;
+        color: var(--color-texto-claro);
+    }
+    .resumen-total {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 2px solid var(--color-borde);
+    }
+    .resumen-total .texto {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .resumen-total .total {
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--color-checkbox);
+    }
+    .resumen-total .total.sin-seleccion {
+        color: var(--color-texto-claro);
+    }
+    .btn-limpiar {
+        margin-top: 12px;
+        padding: 10px 20px;
+        border: 2px solid var(--color-borde);
+        border-radius: var(--radio);
+        background: var(--color-blanco);
+        color: var(--color-texto);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    .btn-limpiar:hover {
+        border-color: var(--color-texto-claro);
+        background: #f8f9fa;
+    }
+    .vacio {
+        text-align: center;
+        padding: 48px 24px;
+        color: var(--color-texto-claro);
+    }
+    .vacio-icono {
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+    @media (max-width: 768px) {
+        header { padding: 16px 20px; }
+        .logo-texto h1 { font-size: 18px; }
+        .logo-icono { width: 40px; height: 40px; font-size: 20px; }
+        .contenido-principal { padding: 16px; }
+        .productos-grid { grid-template-columns: 1fr; }
+        .resumen-grid { grid-template-columns: 1fr; }
+    }
+    html { scroll-behavior: smooth; }
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="contenido-header">
+            <div class="logo">
+                <div class="logo-icono">🍱</div>
+                <div class="logo-texto">
+                    <h1>AuninsDescartablestvj</h1>
+                    <p>Catálogo de artículos descartables</p>
+                </div>
+            </div>
+            <div class="acciones-header">
+                <button class="btn btn-secundario" onclick="window.print()">📋 Imprimir</button>
+                <button class="btn btn-secundario" onclick="loadProducts()">🔄 Refrescar</button>
+            </div>
+        </div>
+    </header>
+    <main class="contenido-principal">
+        <div class="buscador-section">
+            <label class="buscador-label" for="buscador">🔍 Buscar artículo:</label>
+            <input type="text" id="buscador" class="buscador" placeholder="Escribe para buscar..." oninput="filtrarProductos()">
+            <div class="controles-botones">
+                <button class="btn-accion activo" onclick="filtrarPorCategoria('todos')">Ver todo</button>
+                <button class="btn-accion" onclick="limpiarSeleccion()">🗑️ Limpiar selección</button>
+            </div>
+        </div>
+
+        <div class="categorias" id="categorias">
+            <button class="categoria-boton activo" data-categoria="todos">📦 Todos (<span id="contador-todos">0</span>)</button>
+            <button class="categoria-boton" data-categoria="bandejas">🍽️ Bandejas, Estuches y Potes</button>
+            <button class="categoria-boton" data-categoria="bolsas">🛍️ Bolsas y Sobres</button>
+            <button class="categoria-boton" data-categoria="vajilla">🍽️ Vajilla Descartable</button>
+            <button class="categoria-boton" data-categoria="embalaje">📦 Embalaje, Envolturas e Higiene</button>
+        </div>
+        <div id="lista-productos">
+            <div class="vacio">📂 Cargando productos...</div>
+        </div>
+
+        <div class="resumen" id="resumen">
+            <div class="resumen-titulo">📊 Resumen de selección</div>
+            <div class="resumen-grid">
+                <div class="resumen-item">
+                    <div class="valor" id="resumen-total-articulos">0</div>
+                    <div class="label">Artículos tickeados</div>
+                </div>
+                <div class="resumen-item">
+                    <div class="valor" id="resumen-total-minor">/usr/bin/bash</div>
+                    <div class="label">Total precio minorista</div>
+                </div>
+                <div class="resumen-item">
+                    <div class="valor" id="resumen-total-major">/usr/bin/bash</div>
+                    <div class="label">Total precio mayorista</div>
+                </div>
+                <div class="resumen-item">
+                    <div class="valor" id="resumen-cantidad">0</div>
+                    <div class="label">Unidades en total (según canti x mayor)</div>
+                </div>
+            </div>
+            <div class="resumen-total">
+                <span class="texto">Total general:</span>
+                <span class="total" id="resumen-total-general">$0</span>
+            </div>
+            <button class="btn-limpiar" onclick="limpiarSeleccion()">🗑️ Limpiar selección</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
