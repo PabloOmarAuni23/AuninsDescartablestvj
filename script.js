@@ -157,9 +157,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // Sumar aritméticamente los elementos elegidos por el usuario
         todosLosProductos.forEach(p => {
             if (productosSeleccionados.has(p.name)) {
-                // Limpiar símbolos de pesos y convertir texto numérico ("\$1200.00" -> 1200)
-                const numMinor = p.minor ? parseFloat(p.minor.replace("\$", "")) : 0;
-                const numMajor = p.major ? parseFloat(p.major.replace("\$", "")) : 0;
+                // Limpiar símbolos de pesos y convertir texto numérico
+                const numMinor = p.minor ? parseFloat(p.minor.replace("\$", "").trim()) : 0;
+                const numMajor = p.major ? parseFloat(p.major.replace("\$", "").trim()) : 0;
                 
                 if (!isNaN(numMinor)) sumaMinor += numMinor;
                 if (!isNaN(numMajor)) sumaMajor += numMajor;
