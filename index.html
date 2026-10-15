@@ -112,9 +112,12 @@
         margin-bottom: 24px;
         flex-wrap: wrap;
     }
-    .buscador {
+    .buscador-wrapper {
         flex: 1;
         min-width: 250px;
+    }
+    .buscador {
+        width: 100%;
         padding: 12px 16px;
         border: 2px solid var(--color-borde);
         border-radius: var(--radio);
@@ -136,10 +139,10 @@
     .controles-botones {
         display: flex;
         gap: 8px;
-        flex-wrap: wrap;
+        align-items: flex-end;
     }
     .btn-accion {
-        padding: 10px 16px;
+        padding: 12px 16px;
         border: 2px solid var(--color-borde);
         border-radius: var(--radio);
         font-size: 14px;
@@ -150,11 +153,6 @@
     }
     .btn-accion:hover {
         border-color: var(--color-secundario);
-        color: var(--color-secundario);
-    }
-    .btn-accion.activo {
-        border-color: var(--color-secundario);
-        background: #eaf2f8;
         color: var(--color-secundario);
     }
     .categorias {
@@ -192,17 +190,6 @@
     .categoria-boton .icono {
         margin-right: 6px;
     }
-    .contenido-categoria {
-        display: none;
-        animation: fadeIn 0.3s;
-    }
-    .contenido-categoria.activo {
-        display: block;
-    }
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
     .productos-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -216,39 +203,17 @@
         padding: 16px 20px;
         box-shadow: var(--sombra);
         transition: all 0.2s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .producto-card:hover {
         border-color: var(--color-secundario);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    .producto-card.tickeable {
-        cursor: pointer;
-    }
-    .producto-card.tickeable:hover {
+    .producto-card.activo {
         border-color: var(--color-checkbox);
-        box-shadow: 0 4px 12px rgba(39, 174, 96, 0.15);
-    }
-    .producto-checkbox {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        cursor: pointer;
-    }
-    .producto-checkbox input[type="checkbox"] {
-        width: 20px;
-        height: 20px;
-        accent-color: var(--color-checkbox);
-        cursor: pointer;
-        border-radius: 4px;
-    }
-    .producto-checkbox .checkbox-indicador {
-        font-size: 28px;
-        color: var(--color-texto-claro);
-        transition: color 0.2s;
-        flex-shrink: 0;
-    }
-    .producto-checkbox input[type="checkbox"]:checked ~ .checkbox-indicador {
-        color: var(--color-checkbox);
+        background: #f1f9f4;
     }
     .producto-nombre {
         font-size: 15px;
@@ -275,14 +240,10 @@
     }
     .precio-minor { color: var(--color-secundario); }
     .precio-major { color: #e67e22; }
-    .precio-sin-precio {
-        color: var(--color-texto-claro);
-        font-style: italic;
-    }
     .producto-cantidad {
         font-size: 12px;
         color: var(--color-texto-claro);
-        margin-top: 4px;
+        margin-top: 8px;
     }
     .producto-cantidad span {
         background: #e9ecef;
@@ -306,145 +267,80 @@
     }
     .resumen-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 16px;
     }
     .resumen-item {
-        text-align: center;
-        padding: 12px;
         background: #f8f9fa;
+        padding: 16px;
         border-radius: var(--radio);
+        border: 1px solid var(--color-borde);
+        text-align: center;
     }
-    .resumen-item .valor {
-        font-size: 28px;
+    .resumen-item .numero {
+        font-size: 24px;
         font-weight: 700;
         color: var(--color-primario);
+        margin-bottom: 4px;
     }
-    .resumen-item .label {
+    .resumen-item .etiqueta {
         font-size: 13px;
         color: var(--color-texto-claro);
     }
-    .resumen-total {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 16px;
-        padding-top: 16px;
-        border-top: 2px solid var(--color-borde);
-    }
-    .resumen-total .texto {
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .resumen-total .total {
-        font-size: 22px;
-        font-weight: 700;
-        color: var(--color-checkbox);
-    }
-    .resumen-total .total.sin-seleccion {
-        color: var(--color-texto-claro);
-    }
-    .btn-limpiar {
-        margin-top: 12px;
-        padding: 10px 20px;
-        border: 2px solid var(--color-borde);
-        border-radius: var(--radio);
-        background: var(--color-blanco);
-        color: var(--color-texto);
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.2s;
-    }
-    .btn-limpiar:hover {
-        border-color: var(--color-texto-claro);
-        background: #f8f9fa;
-    }
-    .vacio {
+    #mensaje-carga {
         text-align: center;
-        padding: 48px 24px;
+        padding: 40px;
+        font-size: 18px;
         color: var(--color-texto-claro);
     }
-    .vacio-icono {
-        font-size: 48px;
-        margin-bottom: 12px;
-    }
-    @media (max-width: 768px) {
-        header { padding: 16px 20px; }
-        .logo-texto h1 { font-size: 18px; }
-        .logo-icono { width: 40px; height: 40px; font-size: 20px; }
-        .contenido-principal { padding: 16px; }
-        .productos-grid { grid-template-columns: 1fr; }
-        .resumen-grid { grid-template-columns: 1fr; }
-    }
-    html { scroll-behavior: smooth; }
 </style>
-
 </head>
 <body>
+
     <header>
         <div class="contenido-header">
             <div class="logo">
-                <div class="logo-icono">🍱</div>
+                <div class="logo-icono">📦</div>
                 <div class="logo-texto">
                     <h1>AuninsDescartablestvj</h1>
                     <p>Catálogo de artículos descartables</p>
                 </div>
             </div>
             <div class="acciones-header">
-                <button class="btn btn-secundario" onclick="window.print()">📋 Imprimir</button>
-                <button class="btn btn-secundario" onclick="loadProducts()">🔄 Refrescar</button>
+                <button class="btn btn-secundario" id="btn-refrescar">Refrescar</button>
             </div>
         </div>
     </header>
+
     <main class="contenido-principal">
-        <div class="buscador-section">
-            <label class="buscador-label" for="buscador">🔍 Buscar artículo:</label>
-            <input type="text" id="buscador" class="buscador" placeholder="Escribe para buscar..." oninput="filtrarProductos()">
-            <div class="controles-botones">
-                <button class="btn-accion activo" onclick="filtrarPorCategoria('todos')">Ver todo</button>
-                <button class="btn-accion" onclick="limpiarSeleccion()">🗑️ Limpiar selección</button>
+        
+        <section class="buscador-section">
+            <div class="buscador-wrapper">
+                <label class="buscador-label">Buscar artículo:</label>
+                <input type="text" class="buscador" placeholder="Escribe para buscar...">
             </div>
-        </div>
+            <div class="controles-botones">
+                <button class="btn-accion" id="btn-limpiar">Limpiar selección</button>
+            </div>
+        </section>
 
-        <div class="categorias" id="categorias">
-            <button class="categoria-boton activo" data-categoria="todos">📦 Todos (<span id="contador-todos">0</span>)</button>
-            <button class="categoria-boton" data-categoria="bandejas">🍽️ Bandejas, Estuches y Potes</button>
-            <button class="categoria-boton" data-categoria="bolsas">🛍️ Bolsas y Sobres</button>
-            <button class="categoria-boton" data-categoria="vajilla">🍽️ Vajilla Descartable</button>
-            <button class="categoria-boton" data-categoria="embalaje">📦 Embalaje, Envolturas e Higiene</button>
-        </div>
-        <div id="lista-productos">
-            <div class="vacio">📂 Cargando productos...</div>
-        </div>
+        <nav class="categorias">
+            <button class="categoria-boton activo" data-categoria="todos"><span class="icono">📦</span>Todos <span class="contador">(0)</span></button>
+            <button class="categoria-boton" data-categoria="bandejas"><span class="icono">🍞</span>Bandejas, Estuches y Potes <span class="contador">(0)</span></button>
+            <button class="categoria-boton" data-categoria="bolsas"><span class="icono">🛍️</span>Bolsas y Sobres <span class="contador">(0)</span></button>
+            <button class="categoria-boton" data-categoria="vajilla"><span class="icono">🍽️</span>Vajilla Descartable <span class="contador">(0)</span></button>
+            <button class="categoria-boton" data-categoria="embalaje"><span class="icono">🧻</span>Embalaje, Envolturas e Higiene <span class="contador">(0)</span></button>
+        </nav>
 
-        <div class="resumen" id="resumen">
+        <div id="mensaje-carga">⏳ Cargando productos...</div>
+
+        <section class="productos-grid"></section>
+
+        <section class="resumen">
             <div class="resumen-titulo">📊 Resumen de selección</div>
             <div class="resumen-grid">
                 <div class="resumen-item">
-                    <div class="valor" id="resumen-total-articulos">0</div>
-                    <div class="label">Artículos tickeados</div>
+                    <div class="numero" id="resumen-items">0</div>
+                    <div class="etiqueta">Artículos seleccionados</div>
                 </div>
-                <div class="resumen-item">
-                    <div class="valor" id="resumen-total-minor">/usr/bin/bash</div>
-                    <div class="label">Total precio minorista</div>
-                </div>
-                <div class="resumen-item">
-                    <div class="valor" id="resumen-total-major">/usr/bin/bash</div>
-                    <div class="label">Total precio mayorista</div>
-                </div>
-                <div class="resumen-item">
-                    <div class="valor" id="resumen-cantidad">0</div>
-                    <div class="label">Unidades en total (según canti x mayor)</div>
-                </div>
-            </div>
-            <div class="resumen-total">
-                <span class="texto">Total general:</span>
-                <span class="total" id="resumen-total-general">$0</span>
-            </div>
-            <button class="btn-limpiar" onclick="limpiarSeleccion()">🗑️ Limpiar selección</button>
-        </div>
-    </main>
-    <script src="script.js"></script>
-</body>
-</html>
+
