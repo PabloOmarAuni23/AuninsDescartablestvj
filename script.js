@@ -154,12 +154,15 @@ document.addEventListener("DOMContentLoaded", () => {
         let sumaMinor = 0;
         let sumaMajor = 0;
 
-        // Sumar aritméticamente los elementos elegidos por el usuario
+        // Sumar aritméticamente los elementos elegidos por el usuario con soporte para comas latinas
         todosLosProductos.forEach(p => {
             if (productosSeleccionados.has(p.name)) {
-                // Limpiar símbolos de pesos y convertir texto numérico
-                const numMinor = p.minor ? parseFloat(p.minor.replace("\$", "").trim()) : 0;
-                const numMajor = p.major ? parseFloat(p.major.replace("\$", "").trim()) : 0;
+                // Reemplazamos la coma por punto y removemos el signo de pesos
+                const strMinor = p.minor ? p.minor.replace("\$", "").replace(",", ".").trim() : "0";
+                const strMajor = p.major ? p.major.replace("\$", "").replace(",", ".").trim() : "0";
+                
+                const numMinor = parseFloat(strMinor);
+                const numMajor = parseFloat(strMajor);
                 
                 if (!isNaN(numMinor)) sumaMinor += numMinor;
                 if (!isNaN(numMajor)) sumaMajor += numMajor;
@@ -172,3 +175,4 @@ document.addEventListener("DOMContentLoaded", () => {
         if (resumenMajor) resumenMajor.textContent = `$${sumaMajor.toFixed(2)}`;
     }
 });
+
