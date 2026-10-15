@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    function configurarFiltros() {
+    function configureFiltros() {
         // Evento para escribir en la barra buscadora
         if (buscador) {
             buscador.addEventListener("input", (e) => {
@@ -148,6 +148,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 calcularTotales();
             });
         }
+    }
+
+    function configurarFiltros() {
+        configureFiltros();
     }
 
     function calcularTotales() {
