@@ -115,6 +115,9 @@
     .buscador-wrapper {
         flex: 1;
         min-width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
     .buscador {
         width: 100%;
@@ -125,16 +128,15 @@
         background: var(--color-blanco);
         transition: border-color 0.2s;
     }
-    .buscador:focus {
-        outline: none;
-        border-color: var(--color-secundario);
-    }
     .buscador-label {
         display: block;
         font-size: 13px;
         color: var(--color-texto-claro);
         margin-bottom: 6px;
         font-weight: 500;
+    }
+    .buscador-wrapper:focus-within .buscador {
+        border-color: var(--color-secundario);
     }
     .controles-botones {
         display: flex;
@@ -293,6 +295,14 @@
         font-size: 18px;
         color: var(--color-texto-claro);
     }
+
+    #mensaje-error {
+        text-align: center;
+        padding: 40px;
+        font-size: 18px;
+        color: #e74c3c;
+        display: none;
+    }
 </style>
 </head>
 <body>
@@ -313,11 +323,11 @@
     </header>
 
     <main class="contenido-principal">
-        
         <section class="buscador-section">
             <div class="buscador-wrapper">
                 <label class="buscador-label">Buscar artículo:</label>
                 <input type="text" class="buscador" placeholder="Escribe para buscar...">
+                <button class="btn btn-principal" id="btn-buscar">🔍 Buscar</button>
             </div>
             <div class="controles-botones">
                 <button class="btn-accion" id="btn-limpiar">Limpiar selección</button>
@@ -333,6 +343,7 @@
         </nav>
 
         <div id="mensaje-carga">⏳ Cargando productos...</div>
+        <div id="mensaje-error">❌ Error al cargar los productos. <a href="#" id="btn-reintentar">Intentar de nuevo</a></div>
 
         <section class="productos-grid"></section>
 
@@ -343,4 +354,19 @@
                     <div class="numero" id="resumen-items">0</div>
                     <div class="etiqueta">Artículos seleccionados</div>
                 </div>
+                <div class="resumen-item">
+                    <div class="numero" id="resumen-minor">$0.00</div>
+                    <div class="etiqueta">Total minorista</div>
+                </div>
+                <div class="resumen-item">
+                    <div class="numero" id="resumen-major">$0.00</div>
+                    <div class="etiqueta">Total mayorista</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
 

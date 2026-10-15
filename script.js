@@ -4,12 +4,19 @@ document.addEventListener("DOMContentLoaded", () => {
     let productosSeleccionados = new Set();
     let categoriaActual = "todos";
     let textoBusqueda = "";
+    let filtrosConfigurados = false;
+    let controlesConfigurados = false;
+    let peticionId = 0;
 
     // Elementos de la interfaz HTML
     const gridProductos = document.querySelector(".productos-grid");
     const mensajeCarga = document.getElementById("mensaje-carga");
+    const mensajeError = document.getElementById("mensaje-error");
     const buscador = document.querySelector(".buscador");
+    const btnBuscar = document.getElementById("btn-buscar");
     const btnLimpiar = document.getElementById("btn-limpiar");
+    const btnRefrescar = document.getElementById("btn-refrescar");
+    const btnReintentar = document.getElementById("btn-reintentar");
     const botonesCategorias = document.querySelectorAll(".categoria-boton");
 
     // Elementos del cuadro inferior de resumen
@@ -17,39 +24,102 @@ document.addEventListener("DOMContentLoaded", () => {
     const resumenMinor = document.getElementById("resumen-minor");
     const resumenMajor = document.getElementById("resumen-major");
 
-    // Intentar leer el archivo JSON de productos
-    fetch(url)
-        .then(response => {
-            if (!response.ok) throw new Error("No se pudo cargar el archivo");
-            return response.json();
-        })
-        .then(data => {
-            // Filtramos las filas vacías o decorativas del JSON
-            todosLosProductos = data.filter(p => p.name && p.name !== "Listado Precios Articulos");
+    // Intentar leer el archivo JSON de productos (reintentable).
+    // peticionId evita que una respuesta vieja (lenta) pise a la más reciente.
+    function cargarProductos() {
+        const miPeticion = ++peticionId;
+        if (mensajeCarga) {
+            mensajeCarga.style.display = "block";
+            mensajeCarga.textContent = "⏳ Cargando productos...";
+        }
+        if (mensajeError) mensajeError.style.display = "none";
 
-            // Clasificación interna por palabras clave para repartirlos en tus botones
-            todosLosProductos.forEach(p => {
-                const nombre = p.name.toUpperCase();
-                if (nombre.includes("BAND") || nombre.includes("ESTUCHE") || nombre.includes("POTE")) {
-                    p.categoriaAsignada = "bandejas";
-                } else if (nombre.includes("BOLSA") || nombre.includes("SOBRE")) {
-                    p.categoriaAsignada = "bolsas";
-                } else if (nombre.includes("VASO") || nombre.includes("PLATO") || nombre.includes("CUBIERTO") || nombre.includes("VAJILLA") || nombre.includes("AGITADOR")) {
-                    p.categoriaAsignada = "vajilla";
-                } else {
-                    p.categoriaAsignada = "embalaje";
-                }
+        fetch(url)
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP ${response.status} al cargar ${url}`);
+                return response.json();
+            })
+            .then(data => {
+                if (miPeticion !== peticionId) return; // respuesta obsoleta
+                if (!Array.isArray(data)) throw new Error("El JSON no contiene una lista de productos");
+
+                // Filtramos títulos, filas vacías y renglones de ruido (p. ej. "-333 $14.79 $13.77")
+                todosLosProductos = data.filter(p =>
+                    p &&
+                    typeof p.name === "string" &&
+                    p.name.trim() !== "" &&
+                    p.name !== "Listado Precios Articulos" &&
+                    !/^Total Articulos/i.test(p.name.trim()) &&
+                    /[a-záéíóúñ]/i.test(p.name)
+                );
+
+                // Clasificación interna por palabras clave para repartirlos en tus botones
+                todosLosProductos.forEach(p => {
+                    const nombre = p.name.toUpperCase();
+                    if (nombre.includes("BAND") || nombre.includes("ESTUCHE") || nombre.includes("POTE")) {
+                        p.categoriaAsignada = "bandejas";
+                    } else if (nombre.includes("BOLSA") || nombre.includes("SOBRE")) {
+                        p.categoriaAsignada = "bolsas";
+                    } else if (nombre.includes("VASO") || nombre.includes("PLATO") || nombre.includes("CUBIERTO") || nombre.includes("VAJILLA") || nombre.includes("AGITADOR")) {
+                        p.categoriaAsignada = "vajilla";
+                    } else {
+                        p.categoriaAsignada = "embalaje";
+                    }
+                });
+
+                // Ocultamos el letrero estático de carga
+                if (mensajeCarga) mensajeCarga.style.display = "none";
+
+                inicializarCatalogo();
+            })
+            .catch(error => {
+                if (miPeticion !== peticionId) return; // el fallo también es de una petición vieja
+                console.error("Error cargando base de datos:", error);
+                if (mensajeCarga) mensajeCarga.style.display = "none";
+                if (mensajeError) mensajeError.style.display = "block";
             });
+    }
 
-            // Ocultamos el letrero estático de carga
-            if (mensajeCarga) mensajeCarga.style.display = "none";
+    cargarProductos();
 
-            inicializarCatalogo();
-        })
-        .catch(error => {
-            console.error("Error cargando base de datos:", error);
-            if (mensajeCarga) mensajeCarga.textContent = "❌ Error al cargar los artículos.";
-        });
+    // Controles únicos de la página (se registran una sola vez aunque
+    // DOMContentLoaded o la carga se disparen más de una vez)
+    function configurarControles() {
+        if (controlesConfigurados) return;
+        controlesConfigurados = true;
+
+        // Botón "Intentar de nuevo" del mensaje de error
+        if (btnReintentar) {
+            btnReintentar.addEventListener("click", (e) => {
+                e.preventDefault();
+                cargarProductos();
+            });
+        }
+
+        // Botón "Refrescar" del header: recarga los datos sin recargar la página completa
+        if (btnRefrescar) {
+            btnRefrescar.addEventListener("click", () => {
+                productosSeleccionados.clear();
+                if (buscador) buscador.value = "";
+                textoBusqueda = "";
+                categoriaActual = "todos";
+                botonesCategorias.forEach(b => b.classList.toggle("activo", b.getAttribute("data-categoria") === "todos"));
+                document.querySelectorAll(".producto-card").forEach(c => c.classList.remove("activo"));
+                calcularTotales();
+                cargarProductos();
+            });
+        }
+
+        // Botón "🔍 Buscar": aplica el texto escrito en la barra
+        if (btnBuscar) {
+            btnBuscar.addEventListener("click", () => {
+                textoBusqueda = buscador ? buscador.value : "";
+                renderizarTarjetas();
+            });
+        }
+    }
+
+    configurarControles();
 
     function inicializarCatalogo() {
         actualizarContadores();
@@ -151,6 +221,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function configurarFiltros() {
+        // En reintentos no volvemos a registrar los listeners
+        if (filtrosConfigurados) return;
+        filtrosConfigurados = true;
         configureFiltros();
     }
 
