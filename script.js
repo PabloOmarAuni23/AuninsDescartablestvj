@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnReintentar = document.getElementById("btn-reintentar");
     const botonesCategorias = document.querySelectorAll(".categoria-boton");
 
+    // Texto con la fecha de actualización del listado (cabecera)
+    const fechaActualizacion = document.getElementById("fecha-actualizacion");
+
     // Elementos del cuadro inferior de resumen
     const resumenItems = document.getElementById("resumen-items");
     const resumenMinor = document.getElementById("resumen-minor");
@@ -41,20 +44,33 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(data => {
                 if (miPeticion !== peticionId) return; // respuesta obsoleta
-                if (!Array.isArray(data)) throw new Error("El JSON no contiene una lista de productos");
 
-                // Filtramos títulos, filas vacías y renglones de ruido (p. ej. "-333 $14.79 $13.77")
-                todosLosProductos = data.filter(p =>
+                // El JSON nuevo tiene la forma {"actualizado": "...", "productos": [...]}
+                const lista = Array.isArray(data) ? data : (data && data.productos);
+                if (!Array.isArray(lista)) throw new Error("El JSON no contiene una lista de productos");
+
+                // Mostrar la fecha de actualización del listado en la cabecera
+                if (fechaActualizacion) {
+                    const fecha = !Array.isArray(data) && data && data.actualizado ? data.actualizado : "";
+                    fechaActualizacion.textContent = fecha ? ` · Actualizado: ${fecha}` : "";
+                }
+
+                // Los datos llegan limpios desde el Excel (ver generar_catalogo.py);
+                // solo descartamos filas vacías o sin nombre con letras.
+                todosLosProductos = lista.filter(p =>
                     p &&
                     typeof p.name === "string" &&
                     p.name.trim() !== "" &&
-                    p.name !== "Listado Precios Articulos" &&
-                    !/^Total Articulos/i.test(p.name.trim()) &&
                     /[a-záéíóúñ]/i.test(p.name)
                 );
 
-                // Clasificación interna por palabras clave para repartirlos en tus botones
-                todosLosProductos.forEach(p => {
+                // Un id único por producto: el listado tiene algunos nombres
+                // repetidos (distintas presentaciones del mismo artículo) y la
+                // selección se controla por id para que no se pisen entre sí.
+                todosLosProductos.forEach((p, indice) => {
+                    p.id = indice;
+
+                    // Clasificación interna por palabras clave para repartirlos en tus botones
                     const nombre = p.name.toUpperCase();
                     if (nombre.includes("BAND") || nombre.includes("ESTUCHE") || nombre.includes("POTE")) {
                         p.categoriaAsignada = "bandejas";
@@ -160,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Crear las cajitas de los artículos en la cuadrícula
         filtrados.forEach(p => {
             const card = document.createElement("div");
-            card.className = `producto-card tickeable ${productosSeleccionados.has(p.name) ? "activo" : ""}`;
+            card.className = `producto-card tickeable ${productosSeleccionados.has(p.id) ? "activo" : ""}`;
 
             const txtMinor = p.minor ? p.minor : "---";
             const txtMajor = p.major ? p.major : "---";
@@ -177,11 +193,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Marcar y desmarcar productos al tocarlos
             card.addEventListener("click", () => {
-                if (productosSeleccionados.has(p.name)) {
-                    productosSeleccionados.delete(p.name);
+                if (productosSeleccionados.has(p.id)) {
+                    productosSeleccionados.delete(p.id);
                     card.classList.remove("activo");
                 } else {
-                    productosSeleccionados.add(p.name);
+                    productosSeleccionados.add(p.id);
                     card.classList.add("activo");
                 }
                 calcularTotales();
@@ -233,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Sumar aritméticamente los elementos elegidos por el usuario con soporte para comas latinas
         todosLosProductos.forEach(p => {
-            if (productosSeleccionados.has(p.name)) {
+            if (productosSeleccionados.has(p.id)) {
                 // Reemplazamos la coma por punto y removemos el signo de pesos
                 const strMinor = p.minor ? p.minor.replace("\$", "").replace(",", ".").trim() : "0";
                 const strMajor = p.major ? p.major.replace("\$", "").replace(",", ".").trim() : "0";
