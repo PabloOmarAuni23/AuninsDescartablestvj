@@ -2252,12 +2252,6 @@
       "cantidad": 5
     },
     {
-      "name": "DSIPONIBLE",
-      "minor": "$111.20",
-      "major": "$103.20",
-      "cantidad": 4
-    },
-    {
       "name": "EMBLOCADA 15X25 1/2KG",
       "minor": "$1000.00",
       "major": "$850.00",
@@ -5072,7 +5066,7 @@
       "cantidad": 5
     },
     {
-      "name": "NUEVO PABLO",
+      "name": "NUEVO ROSARIO",
       "minor": "$42.00",
       "major": "$38.00",
       "cantidad": 10
