@@ -5,9 +5,11 @@ generar_catalogo.py
 Regenera 'productos.json' a partir del listado de precios en Excel.
 
 Uso:
-    python generar_catalogo.py
+    python generar_catalogo.py [ruta/al/archivo.xlsx]
 
-Busca el archivo .xlsx más reciente dentro de la carpeta EXCELL/,
+Si no se indica ruta, busca el archivo .xlsx más reciente dentro de la
+carpeta EXCELL/. La ruta también puede venir de la variable de entorno
+RUTA_EXCELL (la usa el workflow de GitHub Actions).
 lee la única hoja (formato: título, actualización, encabezados y
 luego una fila por producto con columnas Producto / P. Minorist. /
 P. Mayorist. / Canti x Mayor) y escribe productos.json limpio:
@@ -86,8 +88,11 @@ def buscar_excel():
 
 
 def main():
-    ruta_excel = buscar_excel()
-    print(f"Usando Excel: {ruta_excel.name}")
+    # Ruta del Excel: argumento de línea de comandos > variable de entorno > el más reciente de EXCELL/
+    ruta_excel = Path(sys.argv[1]) if len(sys.argv) > 1 else buscar_excel()
+    if not ruta_excel.is_file():
+        sys.exit(f"No existe el archivo: {ruta_excel}")
+    print(f"Usando Excel: {ruta_excel}")
 
     wb = openpyxl.load_workbook(ruta_excel, data_only=True)
     ws = wb.worksheets[0]

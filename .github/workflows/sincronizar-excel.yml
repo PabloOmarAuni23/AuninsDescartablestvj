@@ -1,0 +1,80 @@
+name: Sincronizar catálogo desde Google Drive
+
+# Cada 30 minutos baja la planilla Excel de la carpeta de Google Drive,
+# regenera productos.json y, si hubo cambios, los sube al repositorio.
+# GitHub Pages se vuelve a publicar automáticamente.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+
+# Evita corridas superpuestas
+concurrency:
+  group: sincronizar-drive
+  cancel-in-progress: true
+
+env:
+  CARPETA_DRIVE: "https://drive.google.com/drive/folders/1deN3y9wsatVuNk_coG9nMWe2F0P_7Qv_"
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install openpyxl gdown
+
+      - name: Bajar la planilla desde Google Drive
+        run: |
+          set -e
+          # La carpeta debe estar compartida como "cualquier persona con el enlace"
+          gdown "$CARPETA_DRIVE" -O drive_tmp || true
+          echo "Contenido de la carpeta en Drive:"
+          find drive_tmp -type f 2>/dev/null || echo "(carpeta vacía o sin acceso)"
+          # Elegimos el .xlsx más reciente (por si hay más de uno)
+          XLSX=$(find drive_tmp -name "*.xlsx" -printf "%T@ %p\n" 2>/dev/null | sort -rn | head -n1 | cut -d" " -f2-)
+          if [ -z "$XLSX" ]; then
+            echo "::error::No se pudo bajar ningún .xlsx de Drive. Revisá que la carpeta esté compartida con 'Cualquier persona con el enlace'."
+            exit 1
+          fi
+          echo "Usando la planilla: $XLSX"
+          mkdir -p EXCELL
+          rm -f EXCELL/*.xlsx
+          cp "$XLSX" "EXCELL/listado-actualizado.xlsx"
+
+      - name: Regenerar productos.json desde el Excel
+        run: python generar_catalogo.py EXCELL/listado-actualizado.xlsx
+
+      - name: Subir cambios al repositorio
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add productos.json EXCELL/
+          if git diff --cached --quiet; then
+            echo "Sin cambios: la página ya está al día."
+          else
+            git commit -m "Actualización automática desde Google Drive ($(date -u +'%d/%m/%Y %H:%M UTC'))"
+            git push
+          fi
+
+      - name: Forzar la publicación en GitHub Pages
+        run: |
+          # Los pushes hechos con GITHUB_TOKEN no disparan solos la publicación,
+          # así que la pedimos por API (por eso el workflow pide permiso pages: write).
+          curl -sS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
+          echo "Publicación solicitada."
