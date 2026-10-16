@@ -1,12 +1,21 @@
 name: Sincronizar catálogo desde Google Drive
 
-# Cada 30 minutos baja la planilla Excel de la carpeta de Google Drive,
-# regenera productos.json y, si hubo cambios, los sube al repositorio.
-# GitHub Pages se vuelve a publicar automáticamente.
+# Baja la Google Sheet "listado-precios", regenera productos.json y, si hubo
+# cambios, los sube al repositorio. GitHub Pages se vuelve a publicar sola.
+#
+# Se activa por tres vías:
+#   1) schedule: los minutos 13 y 43 de cada hora (evitamos :00 y :30, que son
+#      los horarios de mayor carga donde GitHub suele demorar los cron).
+#   2) workflow_dispatch: botón "Run workflow" en la pestaña Actions para
+#      sincronizar inmediatamente.
+#   3) repository_dispatch: la propia Google Sheet dispara la sincronización
+#      al editarla, vía el script en apps-script/disparar-sincronizacion.gs.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "13,43 * * * *"
   workflow_dispatch: {}
+  repository_dispatch:
+    types: [actualizar-catalogo]
 
 permissions:
   contents: write
@@ -79,13 +88,27 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add productos.json EXCELL/
+          # SOLO se sube productos.json. El .xlsx que exporta Google cambia de
+          # bytes en cada descarga aunque los datos sean idénticos, así que
+          # commitearlo generaría "cambios" basura en cada corrida.
+          git add productos.json
           if git diff --cached --quiet; then
             echo "Sin cambios: la página ya está al día."
-          else
-            git commit -m "Actualización automática desde Google Drive ($(date -u +'%d/%m/%Y %H:%M UTC'))"
-            git push
+            exit 0
           fi
+          git commit -m "Actualización automática desde Google Drive ($(date -u +'%d/%m/%Y %H:%M UTC'))"
+          # Reintentamos el push ante un push concurrente (p. ej. un commit manual)
+          for intento in 1 2 3; do
+            if git push; then
+              echo "Cambios subidos al repositorio."
+              exit 0
+            fi
+            echo "Push rechazado (intento $intento). Reintentando..."
+            git pull --rebase origin main
+            sleep 5
+          done
+          echo "::error::No se pudo subir los cambios tras 3 intentos."
+          exit 1
 
       - name: Forzar la publicación en GitHub Pages
         run: |
@@ -96,3 +119,4 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
           echo "Publicación solicitada."
+

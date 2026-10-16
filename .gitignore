@@ -2,3 +2,8 @@
 .vscode/
 *.log
 .DS_Store
+
+# El .xlsx descargado de Google cambia de bytes en cada export; no se versiona
+EXCELL/*.xlsx
+drive_tmp/
+nul
