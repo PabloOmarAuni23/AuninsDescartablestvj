@@ -19,6 +19,9 @@ concurrency:
 
 env:
   CARPETA_DRIVE: "https://drive.google.com/drive/folders/1deN3y9wsatVuNk_coG9nMWe2F0P_7Qv_"
+  # ID de la Google Sheet "listado-precios": es la planilla que se edita a mano.
+  # Se baja directo por ID para no depender de qué archivos haya en la carpeta.
+  SHEET_ID: "1kYNYTLA2BjPgWNtGw5GO1OVzXPsS_D0thsgD3trYAjk"
 
 jobs:
   sincronizar:
@@ -38,14 +41,29 @@ jobs:
       - name: Bajar la planilla desde Google Drive
         run: |
           set -e
-          # La carpeta debe estar compartida como "cualquier persona con el enlace"
-          gdown "$CARPETA_DRIVE" -O drive_tmp || true
-          echo "Contenido de la carpeta en Drive:"
-          find drive_tmp -type f 2>/dev/null || echo "(carpeta vacía o sin acceso)"
-          # Elegimos el .xlsx más reciente (por si hay más de uno)
+          rm -rf drive_tmp
+          mkdir -p drive_tmp
+
+          # 1) Opción principal: exportar la Google Sheet directo por su ID.
+          #    Así siempre se baja la planilla que se edita a mano (la más nueva).
+          curl -sSL --fail --max-time 60 \
+            -o drive_tmp/listado-precios.xlsx \
+            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx" || true
+
+          # Un .xlsx real es un zip: empieza con "PK". Si no, la exportación falló
+          # (p. ej. la planilla no está compartida como "cualquier persona con el enlace").
+          if [ "$(head -c2 drive_tmp/listado-precios.xlsx 2>/dev/null)" != "PK" ]; then
+            echo "::warning::La exportación directa falló; se intenta bajando la carpeta completa con gdown."
+            rm -f drive_tmp/*.xlsx
+            gdown "$CARPETA_DRIVE" -O drive_tmp || true
+          fi
+
+          echo "Contenido descargado:"
+          find drive_tmp -type f 2>/dev/null || echo "(sin archivos)"
+          # Elegimos el .xlsx más reciente (por si la carpeta trae más de uno)
           XLSX=$(find drive_tmp -name "*.xlsx" -printf "%T@ %p\n" 2>/dev/null | sort -rn | head -n1 | cut -d" " -f2-)
-          if [ -z "$XLSX" ]; then
-            echo "::error::No se pudo bajar ningún .xlsx de Drive. Revisá que la carpeta esté compartida con 'Cualquier persona con el enlace'."
+          if [ -z "$XLSX" ] || [ "$(head -c2 "$XLSX" 2>/dev/null)" != "PK" ]; then
+            echo "::error::No se pudo bajar ningún .xlsx válido de Drive. Revisá que la planilla esté compartida con 'Cualquier persona con el enlace'."
             exit 1
           fi
           echo "Usando la planilla: $XLSX"
