@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnLimpiar = document.getElementById("btn-limpiar");
     const btnRefrescar = document.getElementById("btn-refrescar");
     const btnReintentar = document.getElementById("btn-reintentar");
+    const navCategorias = document.querySelector(".categorias");
     const botonesCategorias = document.querySelectorAll(".categoria-boton");
 
     // Texto con la fecha de actualización del listado (cabecera)
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         if (mensajeError) mensajeError.style.display = "none";
 
-        fetch(url)
+        fetch(`${url}?v=${Date.now()}`, { cache: "no-store" })
             .then(response => {
                 if (!response.ok) throw new Error(`HTTP ${response.status} al cargar ${url}`);
                 return response.json();
@@ -82,6 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         p.categoriaAsignada = "embalaje";
                     }
                 });
+                todosLosProductos.forEach(p => {
+                    p.categoria = (typeof p.categoria === "string" && p.categoria.trim())
+                        ? p.categoria.trim()
+                        : "Otros artículos";
+                });
 
                 // Ocultamos el letrero estático de carga
                 if (mensajeCarga) mensajeCarga.style.display = "none";
@@ -120,6 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 textoBusqueda = "";
                 categoriaActual = "todos";
                 botonesCategorias.forEach(b => b.classList.toggle("activo", b.getAttribute("data-categoria") === "todos"));
+                if (navCategorias) navCategorias.querySelectorAll(".categoria-boton").forEach(b => b.classList.toggle("activo", b.getAttribute("data-categoria") === "todos"));
                 document.querySelectorAll(".producto-card").forEach(c => c.classList.remove("activo"));
                 calcularTotales();
                 cargarProductos();
@@ -138,6 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
     configurarControles();
 
     function inicializarCatalogo() {
+        crearBotonesCategorias();
         actualizarContadores();
         renderizarTarjetas();
         configurarFiltros();
@@ -157,13 +165,47 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    function crearBotonesCategorias() {
+        if (!navCategorias) return;
+        navCategorias.replaceChildren();
+        const categorias = [...new Set(todosLosProductos.map(p => p.categoria))]
+            .sort((a, b) => a.localeCompare(b, "es"));
+        const agregarBoton = (categoria, etiqueta, activo = false) => {
+            const boton = document.createElement("button");
+            boton.type = "button";
+            boton.className = `categoria-boton${activo ? " activo" : ""}`;
+            boton.dataset.categoria = categoria;
+            boton.append(document.createTextNode(etiqueta + " "));
+            const contador = document.createElement("span");
+            contador.className = "contador";
+            contador.textContent = "(0)";
+            boton.appendChild(contador);
+            navCategorias.appendChild(boton);
+        };
+        agregarBoton("todos", "Todos", true);
+        categorias.forEach(categoria => agregarBoton(categoria, categoria));
+    }
+
+    function actualizarContadores() {
+        if (!navCategorias) return;
+        const todos = navCategorias.querySelector('[data-categoria="todos"] .contador');
+        if (todos) todos.textContent = `(${todosLosProductos.length})`;
+        navCategorias.querySelectorAll(".categoria-boton").forEach(boton => {
+            const categoria = boton.getAttribute("data-categoria");
+            if (categoria === "todos") return;
+            const total = todosLosProductos.filter(p => p.categoria === categoria).length;
+            const contador = boton.querySelector(".contador");
+            if (contador) contador.textContent = `(${total})`;
+        });
+    }
+
     function renderizarTarjetas() {
         if (!gridProductos) return;
         gridProductos.innerHTML = "";
 
         // Filtrado en tiempo real por botones y barra de búsqueda
         const filtrados = todosLosProductos.filter(p => {
-            const coincideCat = (categoriaActual === "todos" || p.categoriaAsignada === categoriaActual);
+            const coincideCat = (categoriaActual === "todos" || p.categoria === categoriaActual);
             const coincideBusqueda = p.name.toLowerCase().includes(textoBusqueda.toLowerCase());
             return coincideCat && coincideBusqueda;
         });
@@ -217,13 +259,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // Eventos para cambiar de pestaña de categorías
-        botonesCategorias.forEach(btn => {
-            btn.addEventListener("click", () => {
-                botonesCategorias.forEach(b => b.classList.remove("activo"));
-                btn.classList.add("activo");
-                categoriaActual = btn.getAttribute("data-categoria") || "todos";
-                renderizarTarjetas();
-            });
+        if (navCategorias) navCategorias.addEventListener("click", event => {
+            const btn = event.target.closest(".categoria-boton");
+            if (!btn || !navCategorias.contains(btn)) return;
+            navCategorias.querySelectorAll(".categoria-boton").forEach(b => b.classList.remove("activo"));
+            btn.classList.add("activo");
+            categoriaActual = btn.getAttribute("data-categoria") || "todos";
+            renderizarTarjetas();
         });
 
         // Botón para limpiar todos los artículos marcados de golpe

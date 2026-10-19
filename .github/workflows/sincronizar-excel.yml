@@ -4,18 +4,25 @@ name: Sincronizar catálogo desde Google Drive
 # cambios, los sube al repositorio. GitHub Pages se vuelve a publicar sola.
 #
 # Se activa por tres vías:
-#   1) schedule: los minutos 13 y 43 de cada hora (evitamos :00 y :30, que son
-#      los horarios de mayor carga donde GitHub suele demorar los cron).
+#   1) schedule: cada 15 minutos como respaldo si no llega el aviso de la planilla.
 #   2) workflow_dispatch: botón "Run workflow" en la pestaña Actions para
 #      sincronizar inmediatamente.
 #   3) repository_dispatch: la propia Google Sheet dispara la sincronización
 #      al editarla, vía el script en apps-script/disparar-sincronizacion.gs.
 on:
   schedule:
-    - cron: "13,43 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
   repository_dispatch:
     types: [actualizar-catalogo]
+  push:
+    branches: [main]
+    paths:
+      - generar_catalogo.py
+      - script.js
+      - index.html
+      - .github/workflows/sincronizar-excel.yml
+      - apps-script/disparar-sincronizacion.gs
 
 permissions:
   contents: write

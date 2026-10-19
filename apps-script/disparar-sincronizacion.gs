@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
-"""
+/*
 disparar-sincronizacion.gs  (código de Google Apps Script, va DENTRO de la
 Google Sheet "listado-precios", no de este repositorio)
 
 Qué hace: cada vez que editás la planilla, avisa por la API de GitHub para que
 el workflow "Sincronizar catálogo desde Google Drive" se ejecute YA mismo, sin
-esperar al cron de los 30 minutos.
+esperar al cron de los 15 minutos.
 
 Cómo instalarlo (una sola vez):
   1) Abrí la planilla https://docs.google.com/spreadsheets/d/1y3e341bygLkaqV_iVSipuS90O66rWvqtw2grXOjYhZs
@@ -22,12 +21,96 @@ Cómo instalarlo (una sola vez):
      aparecer una corrida nueva en
      https://github.com/PabloOmarAuni23/AuninsDescartablestvj/actions
      (aunque no haya cambios, la corrida queda registrada).
-"""
+*/
 
-REPO = "PabloOmarAuni23/AuninsDescartablestvj";
+// After pasting: run completarCategorias once, then crearTriggerEdit once.
+var REPO = "PabloOmarAuni23/AuninsDescartablestvj";
 
 // Se ejecuta con cada edición de la planilla.
+// Run once to fill blank cells in the Categoria column.
+function completarCategorias() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var table = obtenerTablaProductos_(sheet);
+  var firstDataRow = table.headerRow + 1;
+  var rowCount = table.values.length - firstDataRow;
+  if (rowCount <= 0) return;
+  var output = [];
+  for (var i = firstDataRow; i < table.values.length; i++) {
+    var name = table.values[i][table.productColumn];
+    var current = table.values[i][table.categoryColumn];
+    output.push([current && String(current).trim() ? current : (name ? categorizarProducto_(name) : "")]);
+  }
+  sheet.getRange(firstDataRow + 1, table.categoryColumn + 1, output.length, 1).setValues(output);
+}
+
+function completarCategoriaFila_(event) {
+  if (!event || !event.range) return;
+  var sheet = event.range.getSheet();
+  var table = obtenerTablaProductos_(sheet);
+  var row = event.range.getRow() - 1;
+  if (row <= table.headerRow || row >= table.values.length) return;
+  var name = table.values[row][table.productColumn];
+  var category = table.values[row][table.categoryColumn];
+  if (name && (!category || !String(category).trim())) {
+    sheet.getRange(row + 1, table.categoryColumn + 1).setValue(categorizarProducto_(name));
+  }
+}
+
+function obtenerTablaProductos_(sheet) {
+  var values = sheet.getDataRange().getValues();
+  var headerRow = -1;
+  var productColumn = -1;
+  var categoryColumn = -1;
+  for (var r = 0; r < values.length; r++) {
+    var headers = values[r].map(normalizarTexto_);
+    productColumn = headers.findIndex(function(h) { return h.indexOf("PRODUCTO") === 0; });
+    if (productColumn >= 0) {
+      headerRow = r;
+      categoryColumn = headers.findIndex(function(h) { return h === "CATEGORIA" || h === "CATEGORIAS"; });
+      break;
+    }
+  }
+  if (headerRow < 0) throw new Error("No se encontró el encabezado Producto.");
+  if (categoryColumn < 0) {
+    sheet.insertColumnAfter(productColumn + 1);
+    categoryColumn = productColumn + 1;
+    sheet.getRange(headerRow + 1, categoryColumn + 1).setValue("Categoria");
+    values = sheet.getDataRange().getValues();
+  }
+  return { values: values, headerRow: headerRow, productColumn: productColumn, categoryColumn: categoryColumn };
+}
+
+function categorizarProducto_(name) {
+  var t = normalizarTexto_(name);
+  if (t.indexOf("ARRANQUE") >= 0) return "Bolsas de arranque";
+  if (/BOLSA|SOBRE|CAMISETA|BOUTIQUE|EMBLOCADA/.test(t)) {
+    if (t.indexOf("RINON") >= 0) return "Bolsas riñón";
+    if (/\bPP\b|POLIPROPILENO/.test(t)) return "Bolsas de polipropileno (PP)";
+    if (t.indexOf("CAMISETA") >= 0) return "Bolsas camiseta";
+    if (t.indexOf("BOUTIQUE") >= 0) return "Bolsas boutique y kraft";
+    return "Otras bolsas y sobres";
+  }
+  if (t.indexOf("CAJA") >= 0 && t.indexOf("CORRUGAD") >= 0) return "Cajas corrugadas";
+  if ((t.indexOf("BANDEJA") >= 0 || t.indexOf("BAND ") === 0) && t.indexOf("MICRO") >= 0) return "Bandejas microondas";
+  if (t.indexOf("BAND ") === 0) return "Bandejas, fuentes y dips";
+  if (/VASO|PLATO|CUBIERTO|VAJILLA|AGITADOR/.test(t)) return "Vajilla descartable";
+  if (/BANDEJA|ESTUCHE|POTE|ENVASE|TAPA/.test(t)) return "Envases, bandejas y potes";
+  if (t.indexOf("CAJA") >= 0) return "Cajas y embalajes";
+  if (/GLOBO|COTILLON|CUMPLE|PINATA|ANTIFAZ|ANTEOJO|BANDERIN|BANDERA|BENGALA|MASCARA|MONO|GORRO|VELA|CORTINA|GALERA|COLLAR|ESCARAPELA|PELUCA|GUIRNALDA|SERPENTINA/.test(t)) return "Cotillón y fiestas";
+  if (/ABROCHADORA|ACUARELA|CARPETA|CUADERNO|CARTULINA|MARCADOR|LAPICERA|LAPIZ|CRAYON|COMPAS|CORRECTOR|TIJERA|PLASTICOLA|FELPA|TALONARIO|CALCULADORA|ETIQUETA|LIBRETA|LIBRO|MAPA|PIZARRA|PLASTILINA|PINCEL|REPUESTO|SILICONA/.test(t)) return "Librería y manualidades";
+  if (/MOLDE|PIROTIN|TARTERA|OBLEA|FAJA|PALILLO|PINCHO|SOUFFLE|CUCHARA|CUCHILLO|ESPADITA|SORBETE/.test(t)) return "Repostería y gastronomía";
+  if (/CINTA|CARTON|FOLEX|PAPEL|SERVILLETA|ALUMINIO|ROLLO|FILM|MANTEL/.test(t)) return "Papeles y envoltorios";
+  if (/COFIA|BARBIJO|HIGIENICO|TOALLA|ROCIADOR|JABON|GUANTE/.test(t)) return "Higiene y limpieza";
+  if (/MACETA|LAMPARA|PILA|PARLANTE|ORGANIZADOR|HIELERA|BIDON|TAZA|MATE|CUBETA|CUBO|EMBUDO|ENSALADERA|FRAPERA|MAMADERA|SALERO|SERVILLETERO|SACACORCHO|UTENSILLO|COLAGADOR|COLADOR|CAJITA|COPA|MALETIN|JUGUETE|INFLADOR|LLAVERO|RELOJ PERSONAJE|PRECINTO|HILO|PALITO|TRABAS|COLERO|PORTA/.test(t)) return "Hogar, cocina y accesorios";
+  return "Varios y accesorios";
+}
+
+function normalizarTexto_(value) {
+  return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
+}
+
 function onEdit(e) {
+  completarCategoriaFila_(e);
   // Espera 30 segundos: si editaste muchas celdas seguidas, agrupa todo
   // en un solo disparo y evita lanzar el workflow de corrida en corrida.
   ScriptApp.newTrigger("dispararSincronizacion")
@@ -64,6 +147,9 @@ function dispararSincronizacion() {
 // Ejecutar UNA VEZ tras pegar el script: instala el trigger onEdit.
 function crearTriggerEdit() {
   borrarTriggersTemporales();
+  ScriptApp.getProjectTriggers().forEach(function(trigger) {
+    if (trigger.getHandlerFunction() === "onEdit") ScriptApp.deleteTrigger(trigger);
+  });
   ScriptApp.newTrigger("onEdit").forSpreadsheet(
     SpreadsheetApp.getActiveSpreadsheet()
   ).onEdit().create();

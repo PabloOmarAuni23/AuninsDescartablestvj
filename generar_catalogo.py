@@ -35,6 +35,7 @@ que traía títulos basura, espacios pegados y filas sin precios):
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import openpyxl
@@ -44,6 +45,60 @@ ARCHIVO_SALIDA = Path(__file__).resolve().parent / "productos.json"
 
 # Nombres de producto que en realidad son placeholdes del listado, no artículos
 NOMBRES_DESCARTADOS = {"DISPONIBLE"}
+
+
+def normalizar_texto(valor):
+    texto = unicodedata.normalize("NFKD", str(valor or ""))
+    return "".join(c for c in texto if not unicodedata.combining(c)).upper()
+
+
+def categorizar_producto(nombre, categoria_planilla=None):
+    """Usa la categoría de la planilla si existe; si no, clasifica por nombre."""
+    if categoria_planilla is not None and str(categoria_planilla).strip():
+        return re.sub(r"\s+", " ", str(categoria_planilla)).strip()
+
+    texto = normalizar_texto(nombre)
+    if "ARRANQUE" in texto:
+        return "Bolsas de arranque"
+    if "BOLSA" in texto or "SOBRE" in texto or "CAMISETA" in texto or "BOUTIQUE" in texto or "EMBLOCADA" in texto:
+        if "RINON" in texto:
+            return "Bolsas riñón"
+        if re.search(r"\bPP\b|POLIPROPILENO", texto):
+            return "Bolsas de polipropileno (PP)"
+        if "CAMISETA" in texto:
+            return "Bolsas camiseta"
+        if "BOUTIQUE" in texto:
+            return "Bolsas boutique y kraft"
+        return "Otras bolsas y sobres"
+    if "CAJA" in texto and "CORRUGAD" in texto:
+        return "Cajas corrugadas"
+    if ("BANDEJA" in texto or texto.startswith("BAND ")) and "MICRO" in texto:
+        return "Bandejas microondas"
+    if texto.startswith("BAND "):
+        return "Bandejas, fuentes y dips"
+    if any(p in texto for p in ("VASO", "PLATO", "CUBIERTO", "VAJILLA", "AGITADOR")):
+        return "Vajilla descartable"
+    if any(p in texto for p in ("BANDEJA", "ESTUCHE", "POTE", "ENVASE", "TAPA")):
+        return "Envases, bandejas y potes"
+    if "CAJA" in texto:
+        return "Cajas y embalajes"
+    if any(p in texto for p in ("ROLLO", "FILM", "PAPEL", "SERVILLETA", "ALUMINIO")):
+        return "Papeles y envoltorios"
+    if any(p in texto for p in ("HIGIENE", "LIMPIEZA", "GUANTE", "JABON")):
+        return "Higiene y limpieza"
+    if any(p in texto for p in ("GLOBO", "COTILLON", "CUMPLE", "PINATA", "ANTIFAZ", "ANTEOJO", "BANDERIN", "BANDERA", "BENGALA", "MASCARA", "MONO", "GORRO", "VELA", "CORTINA", "GALERA", "COLLAR", "ESCARAPELA", "PELUCA", "GUIRNALDA", "SERPENTINA", "NIEVE AEROSOL", "MAQUILLAJE ARTISTICO", "TUBO PULSERA", "AROS EXTRA", "AROS GRANDES")):
+        return "Cotillón y fiestas"
+    if any(p in texto for p in ("ABROCHADORA", "ACUARELA", "CARPETA", "CUADERNO", "CARTULINA", "MARCADOR", "LAPICERA", "LAPIZ", "CRAYON", "COMPAS", "CORRECTOR", "TIJERA", "PLASTICOLA", "FELPA", "TALONARIO", "CALCULADORA", "ETIQUETA", "GOMA ", "LIBRETA", "LIBRO", "MAPA", "PIZARRA", "PLASTILINA", "PINCEL", "REPUESTO", "SET ESCOLAR", "SET DE LIBRERIA", "TEMPERA", "TIZA", "SACAPUNTA", "ASIGNATURA", "PINTA PELO", "GLITTER", "ESFERA TELGOPOR", "SILICONA")):
+        return "Librería y manualidades"
+    if any(p in texto for p in ("MOLDE", "PIROTIN", "TARTERA", "OBLEA", "FAJA", "PALILLO", "PINCHO", "SOUFFLE", "CUCHARA", "CUCHILLO", "ESPADITA", "SORBETE")):
+        return "Repostería y gastronomía"
+    if any(p in texto for p in ("CINTA", "CARTON", "FOLEX", "FAJA", "PAPEL", "SERVILLETA", "ALUMINIO", "ROLLO", "FILM", "MANTEL")):
+        return "Papeles y envoltorios"
+    if any(p in texto for p in ("COFIA", "BARBIJO", "HIGIENICO", "TOALLA", "ROCIADOR", "JABON", "GUANTE")):
+        return "Higiene y limpieza"
+    if any(p in texto for p in ("MACETA", "LAMPARA", "PILA", "PARLANTE", "ORGANIZADOR", "HIELERA", "BIDON", "TAZA", "MATE", "CUBETA", "CUBO", "EMBUDO", "ENSALADERA", "FRAPERA", "MAMADERA", "SALERO", "SERVILLETERO", "SACACORCHO", "UTENSILLO", "PINZA PARA ENSALADA", "PORTA BOTELLA", "PORTA PANCHO", "PORTA SUPER PANCHO", "POSA PAVA", "COLAGADOR", "COLADOR", "CAJITA", "ENVACE", "ENVASE", "COPA ", "TARTERA", "MALETIN", "JUGUETE", "INFLADOR", "LLAVERO", "RELOJ PERSONAJE", "PRECINTO", "HILO ", "VARITA", "PALITO", "TRABAS", "COLERO", "ARO ", "SILICONA")):
+        return "Hogar, cocina y accesorios"
+    return "Varios y accesorios"
 
 
 def parsear_precio(valor):
@@ -106,6 +161,20 @@ def main():
     if fila_encabezado is None:
         sys.exit("No se encontró la fila de encabezados ('Producto') en el Excel.")
 
+    encabezados = [normalizar_texto(celda) for celda in filas[fila_encabezado]]
+
+    def buscar_columna(predicado, alternativa=None):
+        return next((i for i, encabezado in enumerate(encabezados) if predicado(encabezado)), alternativa)
+
+    indice_producto = buscar_columna(lambda h: h.startswith("PRODUCTO"), 0)
+    indice_categoria = buscar_columna(lambda h: h in {"CATEGORIA", "CATEGORIAS"})
+    indice_minorista = buscar_columna(lambda h: "MINORIST" in h, 2 if indice_categoria is not None else 1)
+    indice_mayorista = buscar_columna(lambda h: "MAYORIST" in h, 3 if indice_categoria is not None else 2)
+    indice_cantidad = buscar_columna(lambda h: "CANTI" in h, 4 if indice_categoria is not None else 3)
+
+    def valor_celda(fila, indice):
+        return fila[indice] if indice is not None and indice < len(fila) else None
+
     # La fila 2 suele traer "Actualizado: 13/10/2026 · Precios expresados..."
     actualizado = None
     for f in filas[:fila_encabezado]:
@@ -118,18 +187,23 @@ def main():
     productos = []
     descartadas = 0
     for f in filas[fila_encabezado + 1:]:
-        if not f or not f[0] or not str(f[0]).strip():
+        producto = valor_celda(f, indice_producto)
+        if not f or not producto or not str(producto).strip():
             continue  # filas vacías
-        nombre = re.sub(r"\s+", " ", str(f[0])).strip()
+        nombre = re.sub(r"\s+", " ", str(producto)).strip()
         if nombre.upper() in NOMBRES_DESCARTADOS:
             descartadas += 1
             continue
         productos.append(
             {
                 "name": nombre.upper(),
-                "minor": parsear_precio(f[1]),
-                "major": parsear_precio(f[2]),
-                "cantidad": parsear_cantidad(f[3]),
+                "minor": parsear_precio(valor_celda(f, indice_minorista)),
+                "major": parsear_precio(valor_celda(f, indice_mayorista)),
+                "cantidad": parsear_cantidad(valor_celda(f, indice_cantidad)),
+                "categoria": categorizar_producto(
+                    nombre,
+                    valor_celda(f, indice_categoria),
+                ),
             }
         )
 

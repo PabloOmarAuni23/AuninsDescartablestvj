@@ -5,5071 +5,5916 @@
       "name": "ENVACES ADEREZOS MOSTACERO COLOR",
       "minor": "$1200.00",
       "major": "$1020.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "ABROCHADORA CHICA SKY",
       "minor": "$1400.00",
       "major": "$1400.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ACUARELA X 12 C/ PINCEL",
       "minor": "$1980.00",
       "major": "$1980.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "AGITADOR CORTO COLOR 50GR (APROX 150)",
       "minor": "$800.00",
       "major": "$700.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "AGITADOR LARGO COLOR X 50 UND",
       "minor": "$1606.80",
       "major": "$1417.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "AGITADORES DE MADERA 15CM",
       "minor": "$13.50",
       "major": "$12.10",
-      "cantidad": 1000
+      "cantidad": 1000,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "ANTEOJO PLASTICO FLUOR",
       "minor": "$271.00",
       "major": "$221.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTEOJOS FLUO CHATO",
       "minor": "$448.30",
       "major": "$418.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTEOJOS REJITAS 15*6CM",
       "minor": "$306.00",
       "major": "$286.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTIFAZ HOLOGRAFICO MESSI",
       "minor": "$261.40",
       "major": "$261.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTIFAZ HOLOGRAMADO C/PLUMAS",
       "minor": "$134.40",
       "major": "$126.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTIFAZ MARIPOSA 15*18 CM",
       "minor": "$53.10",
       "major": "$34.50",
-      "cantidad": 6
+      "cantidad": 6,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTIFAZ PLASTICO",
       "minor": "$189.40",
       "major": "$176.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTIFAZ SUPER PLUMA 17*25 CM",
       "minor": "$334.60",
       "major": "$297.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ANTIFAZ VARA GRANDE 36*20CM",
       "minor": "$157.10",
       "major": "$143.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "AROS EXTRA GRANDES 60MM X UNIDAD",
       "minor": "$300.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "AROS GRANDES 50MM X UNIDAD",
       "minor": "$200.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ARRANQUE 15X20 300GR(B12)",
       "minor": "$2970.00",
       "major": "$2860.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE 15X25 300GR (B12)",
       "minor": "$3105.00",
       "major": "$2990.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE 20X30 LOBITO 500GR (B12)",
       "minor": "$5244.00",
       "major": "$5016.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE 25X35 LOBITO 580 GR (B12)",
       "minor": "$5244.00",
       "major": "$5016.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE 30X40 LOBITO 600GR(B12)",
       "minor": "$5244.00",
       "major": "$5016.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE 35X45 LOBITO 500GR (B12)",
       "minor": "$5244.00",
       "major": "$5016.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE MAX 20X30 LOBITO 1017GR",
       "minor": "$10350.00",
       "major": "$9900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE MAX 25X35 LOBITO 1017GR",
       "minor": "$10350.00",
       "major": "$9900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE MAX 30X40 LOBITO 970GR",
       "minor": "$10350.00",
       "major": "$9900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE MAX 35X45 LOBITO 1017GR",
       "minor": "$10350.00",
       "major": "$9900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE MAX 40X60 LOBITO 960GR",
       "minor": "$10350.00",
       "major": "$9900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ARRANQUE MAX 50X70 LOBITO 960GR",
       "minor": "$10350.00",
       "major": "$9900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de arranque"
     },
     {
       "name": "ASIGNATURA PORTADA CARPETA",
       "minor": "$1200.00",
       "major": "$1200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "BAND DIP LAMINADA DOR O PLAT 18X26",
       "minor": "$450.00",
       "major": "$350.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bandejas, fuentes y dips"
     },
     {
       "name": "BAND DIP LAMINADA DOR O PLAT 23X28",
       "minor": "$393.30",
       "major": "$376.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bandejas, fuentes y dips"
     },
     {
       "name": "BAND DIP LAMINADA DOR O PLAT 28X30",
       "minor": "$750.00",
       "major": "$650.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bandejas, fuentes y dips"
     },
     {
       "name": "BAND DIP LAMINADA DOR O PLAT 30X40",
       "minor": "$1300.00",
       "major": "$1100.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bandejas, fuentes y dips"
     },
     {
       "name": "BAND DIP LAMINADA DOR O PLAT 35X45",
       "minor": "$2500.00",
       "major": "$2200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bandejas, fuentes y dips"
     },
     {
       "name": "BAND PP NEGRA 101",
       "minor": "$40.10",
       "major": "$37.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas, fuentes y dips"
     },
     {
       "name": "BANDEJA ALUM F75 17X13",
       "minor": "$221.00",
       "major": "$204.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 101 ECO MICRO",
       "minor": "$88.30",
       "major": "$84.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA 101 MICRO BELEN EXPRESS",
       "minor": "$75.00",
       "major": "$68.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA 102 MICRO BELEN EXPRESS",
       "minor": "$76.00",
       "major": "$72.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA 103 MICRO BELEN EXPRESS",
       "minor": "$100.00",
       "major": "$95.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA 105 OV NEGRA (NO APTA MICRO)",
       "minor": "$125.00",
       "major": "$110.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA 4 DIV C/CUBIERTO NGRO",
       "minor": "$197.10",
       "major": "$184.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "BANDEJA 617 EXP 15X14X2",
       "minor": "$90.00",
       "major": "$83.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 618 EXP 20X5X15",
       "minor": "$119.60",
       "major": "$115.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 618 OBLEA 20.5X15",
       "minor": "$68.30",
       "major": "$65.60",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 618 REJILLA",
       "minor": "$107.10",
       "major": "$100.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 619 EXP 22X18",
       "minor": "$149.50",
       "major": "$143.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 619 OBLEA 23X19",
       "minor": "$103.50",
       "major": "$97.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 625 EXP 28X19 (B200)",
       "minor": "$150.00",
       "major": "$140.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA 628 EXP 31CM (B200)",
       "minor": "$224.00",
       "major": "$213.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM F100 23X16",
       "minor": "$248.30",
       "major": "$229.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM F200 31X21",
       "minor": "$592.80",
       "major": "$547.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM P15",
       "minor": "$182.00",
       "major": "$168.30",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM P20",
       "minor": "$208.00",
       "major": "$192.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM P23",
       "minor": "$276.90",
       "major": "$255.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM P26",
       "minor": "$359.70",
       "major": "$335.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM P30",
       "minor": "$414.40",
       "major": "$390.40",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA ALUM P33",
       "minor": "$487.40",
       "major": "$467.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA BOWL C/TAPA",
       "minor": "$99.60",
       "major": "$93.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON N1 (B1600)",
       "minor": "$22.30",
       "major": "$20.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON N2 (B800)",
       "minor": "$26.60",
       "major": "$23.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON N3 (B800)",
       "minor": "$29.40",
       "major": "$26.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON N4 (B800)",
       "minor": "$39.20",
       "major": "$34.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON N5 (B600)",
       "minor": "$49.70",
       "major": "$45.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON RED N12",
       "minor": "$43.40",
       "major": "$39.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON RED N13",
       "minor": "$57.40",
       "major": "$51.20",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON RED N14",
       "minor": "$80.60",
       "major": "$77.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON RED N15",
       "minor": "$87.20",
       "major": "$84.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CARTON RED N16",
       "minor": "$156.00",
       "major": "$144.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA CON VASO",
       "minor": "$479.00",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "BANDEJA CORAZON PVC",
       "minor": "$210.40",
       "major": "$191.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA DESAY CON VISOR 32X32X12",
       "minor": "$1495.70",
       "major": "$1445.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA DESAYUNO MICRO 40X30",
       "minor": "$1300.00",
       "major": "$1200.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA LAMINADA N1 (18X14) (SIN STOCK)",
       "minor": "$172.50",
       "major": "$161.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA LAMINADA N2 18X23 (SIN STOCK)",
       "minor": "$435.00",
       "major": "$420.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA LAMINADA N3 24X29 (SIN STOCK)",
       "minor": "$453.70",
       "major": "$440.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA LAMINADA N4 28X34 (SIN STOCK)",
       "minor": "$980.00",
       "major": "$910.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA LAMINADA N5 33X41 (SIN STOCK)",
       "minor": "$1400.00",
       "major": "$1300.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA LAMINADA N6 37X46 (SIN STOCK)",
       "minor": "$2380.00",
       "major": "$2210.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA LAMINADA N7 43X51CM (SIN STOCK)",
       "minor": "$2494.80",
       "major": "$2356.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA MICRO 101 WORK",
       "minor": "$94.10",
       "major": "$87.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA MICRO 102 DPM/WORK",
       "minor": "$81.40",
       "major": "$77.90",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA MICRO 103 DPM / WORK",
       "minor": "$107.60",
       "major": "$103.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA MICRO 105 OVAL DPM",
       "minor": "$138.00",
       "major": "$132.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA MICRO OVAL105 WORK",
       "minor": "$150.00",
       "major": "$140.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bandejas microondas"
     },
     {
       "name": "BANDEJA PET 101 C/TAPA",
       "minor": "$183.30",
       "major": "$169.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PET 102 C/TAPA",
       "minor": "$306.30",
       "major": "$294.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PET 103 C/TAPA",
       "minor": "$387.50",
       "major": "$372.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PET 104 C/TAPA",
       "minor": "$541.80",
       "major": "$492.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PET 105 C/TAPA",
       "minor": "$637.00",
       "major": "$597.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PICADA C6DIV C/TAPA",
       "minor": "$4213.00",
       "major": "$3780.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PVC BLONDA 1 KG 25X310",
       "minor": "$2300.00",
       "major": "$2000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PVC BLONDA 1/2KG 20X25 (SIN STOCK)",
       "minor": "$439.40",
       "major": "$406.90",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PVC BLONDA 2KG 29X36",
       "minor": "$3211.00",
       "major": "$3096.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDEJA PVC BLONDA 3KG 33X39 (SIN STOCK)",
       "minor": "$4917.60",
       "major": "$4582.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "BANDERA PLAST",
       "minor": "$144.50",
       "major": "$144.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BANDERIN FELIZ CUMPLE FUTBOL",
       "minor": "$292.50",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BANDERIN LETRAS MULTICOLOR",
       "minor": "$696.20",
       "major": "$696.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BANDERIN TRIANGULAR FANTASIA",
       "minor": "$869.40",
       "major": "$869.40",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BANDERIN TRIANGULAR PLASTICO",
       "minor": "$1316.20",
       "major": "$1267.50",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BARBIJOS TRES CAPAS TELA",
       "minor": "$220.00",
       "major": "$220.00",
-      "cantidad": 6
+      "cantidad": 6,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "BENGALA DE HUMO COLOR",
       "minor": "$2625.00",
       "major": "$2625.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BIDONES X 5LTS",
       "minor": "$281.20",
       "major": "$243.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "BOBINA DE LIMPIEZA BCA 25CM X 400M",
       "minor": "$6250.00",
       "major": "$6000.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "BOBINA PAPEL 40 CM 8.4 KG",
       "minor": "$16800.00",
       "major": "$15651.60",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "BOBINA PAPEL 60 CM 13K",
       "minor": "$24000.00",
       "major": "$22000.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "BOLSA COCA 12X25 REF",
       "minor": "$4900.00",
       "major": "$4550.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA COMPACTADORA 80X100 PLB",
       "minor": "$2375.00",
       "major": "$2280.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA COMPACTADORA 90X110 PLB (20B)",
       "minor": "$2535.00",
       "major": "$2340.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA CONDIMENTO BD 10X20",
       "minor": "$1500.00",
       "major": "$1400.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA CONSORCIO CRISTAL REFORZADO 60X90 (50UNI)",
       "minor": "$12200.00",
       "major": "$11500.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA CONSORCIO PLB 60X90X10 (50B)",
       "minor": "$923.00",
       "major": "$858.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA FONDO CUADRADO KRAFT N2 (B500)",
       "minor": "$66.30",
       "major": "$63.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA FONDO CUADRADO KRAFT N3 (B500)",
       "minor": "$78.50",
       "major": "$75.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA FONDO CUADRADO KRAFT N4 (B250)",
       "minor": "$114.50",
       "major": "$110.10",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA FONDO CUADRADO KRAFT N5(250)",
       "minor": "$145.60",
       "major": "$140.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA FONDO CUADRADO KRAFT N6 (250)",
       "minor": "$13800.00",
       "major": "$13200.00",
-      "cantidad": 6
+      "cantidad": 6,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA HORNO X 5U",
       "minor": "$772.50",
       "major": "$721.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAP COLOR Y LUNAR",
       "minor": "$240.00",
       "major": "$224.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL BAGUETTES",
       "minor": "$40.90",
       "major": "$35.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N2",
       "minor": "$13.50",
       "major": "$11.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N3",
       "minor": "$19.90",
       "major": "$17.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT 4A",
       "minor": "$25.20",
       "major": "$22.10",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N1",
       "minor": "$10.30",
       "major": "$9.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N4",
       "minor": "$25.50",
       "major": "$22.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N5",
       "minor": "$28.70",
       "major": "$25.10",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N6",
       "minor": "$33.60",
       "major": "$29.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N6L",
       "minor": "$39.30",
       "major": "$34.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N7",
       "minor": "$42.30",
       "major": "$37.10",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PAPEL KRAFT N8",
       "minor": "$40.00",
       "major": "$34.90",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PARA PIZZA IMPRESA",
       "minor": "$156.80",
       "major": "$150.80",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA PP 1/2 KG 25X35 PAN DULCE",
       "minor": "$93.60",
       "major": "$87.30",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 10X15",
       "minor": "$12.40",
       "major": "$11.90",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 10X20",
       "minor": "$23.50",
       "major": "$22.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 10X30",
       "minor": "$23.50",
       "major": "$22.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 12X20",
       "minor": "$18.10",
       "major": "$16.90",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 12X30",
       "minor": "$26.20",
       "major": "$25.10",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 15X20",
       "minor": "$20.00",
       "major": "$18.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 15X25",
       "minor": "$23.20",
       "major": "$21.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 15X30 15X35",
       "minor": "$32.00",
       "major": "$29.70",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 15X40",
       "minor": "$60.70",
       "major": "$58.10",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 17X20",
       "minor": "$41.40",
       "major": "$39.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 17X25",
       "minor": "$37.30",
       "major": "$35.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 17X30",
       "minor": "$47.60",
       "major": "$45.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 17X35",
       "minor": "$51.30",
       "major": "$49.10",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 20X25",
       "minor": "$31.60",
       "major": "$30.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 20X30",
       "minor": "$33.10",
       "major": "$31.70",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 20X30 PAN DULCE",
       "minor": "$57.20",
       "major": "$53.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 20X45/40",
       "minor": "$45.50",
       "major": "$43.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 25X30",
       "minor": "$64.90",
       "major": "$62.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 25X35",
       "minor": "$45.50",
       "major": "$43.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 25X40",
       "minor": "$86.90",
       "major": "$83.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 30X40",
       "minor": "$58.20",
       "major": "$55.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 30X40 1KG PAN DULCE",
       "minor": "$109.20",
       "major": "$101.90",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 35X45",
       "minor": "$125.60",
       "major": "$120.10",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 40X50",
       "minor": "$95.80",
       "major": "$93.70",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 40X60",
       "minor": "$153.20",
       "major": "$146.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 4X20",
       "minor": "$11.20",
       "major": "$10.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 4X30",
       "minor": "$16.10",
       "major": "$14.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 50X60",
       "minor": "$257.40",
       "major": "$243.80",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 50X70",
       "minor": "$356.70",
       "major": "$336.30",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 5X20",
       "minor": "$12.00",
       "major": "$11.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 5X30",
       "minor": "$17.30",
       "major": "$16.10",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 60X120",
       "minor": "$750.00",
       "major": "$680.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 60X90 FUNDA TRAJE",
       "minor": "$621.00",
       "major": "$585.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 6X20 6X25",
       "minor": "$13.90",
       "major": "$12.90",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 6X30",
       "minor": "$19.10",
       "major": "$17.80",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 8X15",
       "minor": "$10.70",
       "major": "$10.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 8X20",
       "minor": "$14.80",
       "major": "$13.80",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA PP 8X30",
       "minor": "$20.10",
       "major": "$19.30",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Bolsas de polipropileno (PP)"
     },
     {
       "name": "BOLSA RESIDUO 45X60 30UD PLB",
       "minor": "$1034.10",
       "major": "$954.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA RESIDUO45X60 ROJA (X50)",
       "minor": "$6432.10",
       "major": "$6163.90",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA RIÑION FANTASIA 35X45 TERLIZZI",
       "minor": "$249.80",
       "major": "$238.90",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA RIÑON FANTASIA 15X25 TERLIZZI",
       "minor": "$84.00",
       "major": "$78.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FANTASIA 20X30 TERLIZZI",
       "minor": "$117.30",
       "major": "$112.20",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FANTASIA 25X35 TERLIZZI",
       "minor": "$162.00",
       "major": "$150.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FANTASIA 30X40 TERLIZZI",
       "minor": "$202.50",
       "major": "$187.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FANTASIA 40X50 TERLIZZI",
       "minor": "$345.00",
       "major": "$319.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FANTASIA 50X60 TERLIZZI",
       "minor": "$506.00",
       "major": "$468.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 15X20",
       "minor": "$54.00",
       "major": "$50.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 20X30",
       "minor": "$85.40",
       "major": "$79.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 25X35",
       "minor": "$109.20",
       "major": "$101.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 30X40",
       "minor": "$138.60",
       "major": "$128.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 35X45",
       "minor": "$196.00",
       "major": "$182.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 40X50",
       "minor": "$259.00",
       "major": "$223.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON FSIA O LISA LIVIANA 50X60",
       "minor": "$277.40",
       "major": "$258.10",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON LISA REGALO 15X25 TERLIZZI",
       "minor": "$88.00",
       "major": "$82.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON LISA REGALO 20X30 TERLIZZI",
       "minor": "$118.70",
       "major": "$113.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON LISA REGALO 25X35 TERLIZZI",
       "minor": "$178.20",
       "major": "$165.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON LISA REGALO 35X45 TERLIZZI",
       "minor": "$248.40",
       "major": "$237.60",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON LISA REGALO 40X50",
       "minor": "$347.00",
       "major": "$321.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON LISA REGALO30X40 TERLIZZI",
       "minor": "$208.40",
       "major": "$199.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON TELA IMPRESA 30X40",
       "minor": "$371.90",
       "major": "$347.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON TELA LISA O ESTAMOADA 30X40",
       "minor": "$510.00",
       "major": "$485.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON TELA LISA O ESTAMPADA 22X30",
       "minor": "$375.00",
       "major": "$350.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA RIÑON TELA RAYAS 15X26",
       "minor": "$210.00",
       "major": "$189.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas riñón"
     },
     {
       "name": "BOLSA TELA 15X40 VINO AZUL , NEGRA O BEIGE",
       "minor": "$650.00",
       "major": "$550.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA TELA C/ASA 45X40",
       "minor": "$882.00",
       "major": "$771.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA TELA P/AUTO",
       "minor": "$79.10",
       "major": "$72.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 06X10",
       "minor": "$63.00",
       "major": "$58.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 10X15",
       "minor": "$91.00",
       "major": null,
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 10X15",
       "minor": "$118.90",
       "major": "$110.70",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 10X15",
       "minor": "$84.50",
       "major": null,
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 20X30",
       "minor": "$166.80",
       "major": "$155.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 25X35",
       "minor": "$214.60",
       "major": "$199.80",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER 30X40",
       "minor": "$266.00",
       "major": "$247.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOLSA ZIPPER METALIZADA 11X17X3.5 HERMETICA",
       "minor": "$330.00",
       "major": "$300.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "BOMBUCHA CANDELA GLOBO X100",
       "minor": "$1300.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "BOUTIQUE KRAFT KP 0 10X12",
       "minor": "$480.00",
       "major": "$450.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE KRAFT KP 1 19X12",
       "minor": "$460.00",
       "major": "$450.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE KRAFT KP2 24X18",
       "minor": "$462.00",
       "major": "$429.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N1 BLANCA(18*8*23)",
       "minor": "$406.00",
       "major": "$377.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N2 KRAF 22*10*31",
       "minor": "$490.00",
       "major": "$455.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N3 KRAF 22*10*42",
       "minor": "$546.00",
       "major": "$507.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N4 KRAFF 25X35",
       "minor": "$550.00",
       "major": "$520.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N5 KRAFT 30X10X32",
       "minor": "$650.00",
       "major": "$580.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N6 BCA 30*12*41",
       "minor": "$650.00",
       "major": "$550.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BOUTIQUE N6 KRAF 30*12*41",
       "minor": "$700.00",
       "major": "$650.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas boutique y kraft"
     },
     {
       "name": "BROCHE ABROCHADORA N10",
       "minor": "$702.00",
       "major": "$702.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CAJA BCA P/ESNALADA",
       "minor": "$93.40",
       "major": "$84.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA BOMBON 1/2 KG",
       "minor": "$1700.00",
       "major": "$1500.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA BOMBON 1/4",
       "minor": "$1500.00",
       "major": "$1300.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA BOMBON 1KG",
       "minor": "$2000.00",
       "major": "$1800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA CARAMELERA CHICA",
       "minor": "$205.40",
       "major": "$180.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA CARAMELERA GRANDE",
       "minor": "$270.00",
       "major": "$240.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA CONEJITO 19X19X8",
       "minor": "$2500.00",
       "major": "$2100.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA CORAZON ROJA / KRAFT PEQUEÑA",
       "minor": "$2500.00",
       "major": "$2100.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA CORRUGADA EMPANADA CUADRADA",
       "minor": "$253.40",
       "major": "$247.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUGADA HAMB CHICA 15X15X6",
       "minor": "$200.00",
       "major": "$192.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUGADA HAMBUR ALTA 23X16X10",
       "minor": "$221.00",
       "major": "$212.50",
-      "cantidad": 30
+      "cantidad": 30,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUGADA HAMBURGUESA",
       "minor": "$173.40",
       "major": "$166.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUGADA LOMO DOBLE",
       "minor": "$300.00",
       "major": "$275.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUGADA PIZZA 1/2 RECTANGULAR",
       "minor": "$235.00",
       "major": "$220.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUGADA PIZZA LIVIANA",
       "minor": "$260.00",
       "major": "$250.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas corrugadas"
     },
     {
       "name": "CAJA CORRUPGADA PIZZA PREMIUM",
       "minor": "$288.90",
       "major": "$266.70",
-      "cantidad": 30
+      "cantidad": 30,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA EST BOM 10X10 KRAFT C/VT",
       "minor": "$350.00",
       "major": "$250.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA EST BOM 10X10 ROJA C/VT",
       "minor": "$400.00",
       "major": "$300.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA EST CORAZON C/VT",
       "minor": "$3800.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA FELIZ DELIVERY CANDY BAR",
       "minor": "$566.40",
       "major": "$520.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA FOOD TRUC BCA/NARANJA",
       "minor": "$202.80",
       "major": "$189.20",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA FOOD TRUCK BLANCA",
       "minor": "$144.90",
       "major": "$135.20",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA FOOD TRUCK BLANCA GDE",
       "minor": "$212.60",
       "major": "$198.40",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS 1/2 PIZZA",
       "minor": "$110.00",
       "major": "$95.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS EMPANADA",
       "minor": "$168.00",
       "major": "$156.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS LOMO CHICO",
       "minor": "$89.00",
       "major": "$82.80",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS LOMO GRANDE",
       "minor": "$116.10",
       "major": "$107.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS PIZZA ECONOM ETIQ.VERDE",
       "minor": "$156.00",
       "major": "$150.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS PIZZA INTERMEDIA ETIQ.AZUL",
       "minor": "$196.00",
       "major": "$182.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA GRIS PIZZA REFORZADA ETIQ.NEGRA",
       "minor": "$220.00",
       "major": "$200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA MALETIN BCA",
       "minor": "$1095.00",
       "major": "$1030.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA MALETIN GRIS",
       "minor": "$1003.80",
       "major": "$912.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA MINI TORTA 10X10X10CM",
       "minor": "$1877.80",
       "major": "$1733.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA NAVIDAD BCA - ROLA ECONOMICA",
       "minor": "$1400.00",
       "major": "$1300.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA NAVIDAD NEGRA O FELICES FIESTAS",
       "minor": "$1500.00",
       "major": "$1400.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA PARA ALFAJORES CHICA 20*12*5",
       "minor": "$713.30",
       "major": "$658.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA PARA WOK - COMIDA",
       "minor": "$495.00",
       "major": "$495.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA POPCORN CHICO",
       "minor": "$37.50",
       "major": "$32.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA POPCORN GRANDE",
       "minor": "$80.70",
       "major": "$77.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA POPCORN MEDIANO",
       "minor": "$52.50",
       "major": "$49.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA SERVILLETA 18X18 SERVIPACK NEGRO",
       "minor": "$7280.00",
       "major": "$6760.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA SERVILLETA 33X33 SERVIMAX",
       "minor": "$8050.00",
       "major": "$7475.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA SERVILLETA NEVADA BAR X750",
       "minor": "$14111.50",
       "major": "$13547.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA TIPO FOSFORERA BCA",
       "minor": "$1710.90",
       "major": "$1610.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA TORTA 21X21X11 CM",
       "minor": "$2769.00",
       "major": "$2615.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA TORTA 31X31X13 CM BLANCA",
       "minor": "$4050.00",
       "major": "$3912.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA TORTA 31X31X13 IMPRESA",
       "minor": "$3500.00",
       "major": "$3200.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA TORTA ROJA 15X15X15",
       "minor": "$1575.00",
       "major": "$1470.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VALIJA VISOR 25X14X16 BCA",
       "minor": "$1800.00",
       "major": "$1500.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VINO BCA",
       "minor": "$144.70",
       "major": "$124.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR 19X19X10",
       "minor": "$1300.00",
       "major": "$1204.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR 26X17.5X9",
       "minor": "$1700.00",
       "major": "$1500.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR 31X20X7",
       "minor": "$1700.00",
       "major": "$1500.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR BASE/M 25X25",
       "minor": "$2000.00",
       "major": "$1800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR BASE/M 30X30",
       "minor": "$2400.00",
       "major": "$2200.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR BOMBON 15.5X14.5X3",
       "minor": "$771.80",
       "major": "$716.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR BOX 14.5X14.5X19 SABR",
       "minor": "$1500.00",
       "major": "$1400.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR DESAYUNO CHICA BCA",
       "minor": "$1680.00",
       "major": "$1575.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR DESAYUNO GDE BCA",
       "minor": "$2100.00",
       "major": "$1942.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR DESAYUNO GDES BCA",
       "minor": "$1744.10",
       "major": "$1475.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR DESAYUNO MEDIANA BCA",
       "minor": "$1785.00",
       "major": "$1732.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR DIA DEL PADRE",
       "minor": "$2436.50",
       "major": "$2293.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR FELIZ 9.5X5X12.5 SABRI",
       "minor": "$1200.00",
       "major": "$100.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR KRAFT ECO 20X5X5,14",
       "minor": "$630.00",
       "major": "$619.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR LOVE CORA-ESTR BLANCA",
       "minor": "$892.50",
       "major": "$840.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR LOVE CORA-ESTR KRAFT",
       "minor": "$787.50",
       "major": "$735.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR POSTRES 24*7*7",
       "minor": "$1155.00",
       "major": "$1050.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJA VISOR REGALO KRAFT/BCA",
       "minor": "$735.00",
       "major": "$630.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "CAJITA LUNAR 20*9*9",
       "minor": "$113.30",
       "major": "$108.50",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "CAKE TOPPER ACRILICO FELIZ CUMPLE",
       "minor": "$613.20",
       "major": "$613.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CALCULADORA CHICA",
       "minor": "$2080.00",
       "major": "$2080.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CAMISETA 10X15 FARMACIA BLISTERA",
       "minor": "$1878.50",
       "major": "$1739.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 20X30 BLANCA",
       "minor": "$1300.00",
       "major": "$1200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 20X30 FARMACIA",
       "minor": "$2450.20",
       "major": "$2268.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 20X30 FARMACIA INPLA",
       "minor": "$1932.00",
       "major": "$1820.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 30X40 ECONEGRA",
       "minor": "$966.00",
       "major": "$924.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 30X40 ECOVERDE (X70) B20",
       "minor": "$1300.00",
       "major": "$1200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 30X40 FARMACIA",
       "minor": "$3289.00",
       "major": "$3162.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 30X40 FARMACIA INPLA",
       "minor": "$2618.60",
       "major": "$2466.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 30X40 ROLAND BCA (X80)",
       "minor": "$1755.00",
       "major": "$1664.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 DUO REF AZUL",
       "minor": "$3000.00",
       "major": "$2800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 ECO COLOR (X70) B20",
       "minor": "$1610.00",
       "major": "$1500.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 ECONEGRA",
       "minor": "$1800.00",
       "major": "$1500.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 OFERTA BCA",
       "minor": "$2500.00",
       "major": "$2200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 OFERTON BEIGE (X70) B30",
       "minor": "$1300.00",
       "major": "$1200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 OFERTON BLANCA REF.",
       "minor": "$1700.00",
       "major": "$1600.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 REFORZADA LA-60 BCA",
       "minor": "$2400.00",
       "major": "$2000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 REFORZADA LISA NEGRA",
       "minor": "$2204.00",
       "major": "$2030.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 40X50 RERFORZADA AMARILLA",
       "minor": "$1800.00",
       "major": "$1700.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 45X60 ROLAND O LOBITO (X80)",
       "minor": "$5730.10",
       "major": "$5116.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 50X70 GRACIAS POR TU COMPRA (SIN STOCK)",
       "minor": "$7500.00",
       "major": "$7300.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 50X70 LISA MAPSA X100",
       "minor": "$7500.00",
       "major": "$6800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 50X70 LISA MAPSA X70 (SIN STOCK)",
       "minor": "$6500.00",
       "major": "$5800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CAMISETA 60X80",
       "minor": "$9882.40",
       "major": "$9412.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Bolsas camiseta"
     },
     {
       "name": "CARPETA TAPA N3 FTSIA",
       "minor": "$1500.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "CARPETA TAPA N3 RELIEVE + BRILLO",
       "minor": "$3000.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "CARTEL BABY SHOWER",
       "minor": "$1386.70",
       "major": "$1386.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "CARTEL CUMPLE HOLOGRAFICOS",
       "minor": "$1800.00",
       "major": "$1800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CARTEL CUMPLE PASTEL/IMPORT",
       "minor": "$1602.00",
       "major": "$1602.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CARTEL FELIZ CUMPLE ECO TELGOPOR",
       "minor": "$769.10",
       "major": "$576.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CARTEL FELIZ NAVIDAD BANDERIN",
       "minor": "$2533.10",
       "major": "$2384.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CARTERITA ROJA CORAZON",
       "minor": "$415.80",
       "major": "$398.50",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "CARTON CORRUGADA X METRO",
       "minor": "$900.00",
       "major": "$800.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CARTULINA/ AFICHE X UNID",
       "minor": "$750.00",
       "major": "$750.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CINTA 12X30 CHICA",
       "minor": "$525.00",
       "major": "$525.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA 24X50",
       "minor": "$604.50",
       "major": "$581.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA 48X50",
       "minor": "$1200.00",
       "major": "$1100.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA AISLADORA X 10MTS",
       "minor": "$787.50",
       "major": "$787.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA LISA RIBONE 12MM X50MTS",
       "minor": "$2655.00",
       "major": "$2655.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA LISA RIBONE 20MM X50MTS",
       "minor": "$4676.00",
       "major": "$4676.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA LISA RIBONE 40MM X50MTS",
       "minor": "$6000.00",
       "major": "$5850.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA METALIZADA RIBONE 5MM",
       "minor": "$172.30",
       "major": "$143.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA METRICA",
       "minor": "$4000.00",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA PAPEL 12MMX50",
       "minor": "$1316.20",
       "major": "$1316.20",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA PAPEL 18MMV20",
       "minor": "$981.40",
       "major": "$981.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA PAPEL 18MMX50",
       "minor": "$1774.50",
       "major": "$1774.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA PAPEL 24MMX50",
       "minor": "$2800.00",
       "major": "$2600.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "CINTA PARA ARCO GLOBO",
       "minor": "$334.70",
       "major": "$334.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "COFIAS X UNIDAD (B100)",
       "minor": "$93.30",
       "major": "$86.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "COLAGADOR MACETA CHICO",
       "minor": "$377.00",
       "major": "$351.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "COLAGADOR MACETA GRANDE",
       "minor": "$450.00",
       "major": "$400.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "COLERO",
       "minor": "$1521.00",
       "major": "$1521.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "COLLAR FLOR MULTICOLOR",
       "minor": "$315.70",
       "major": "$290.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "COLLAR FLUO",
       "minor": "$600.90",
       "major": "$530.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "COLLARIN O FAJA PARA VASO TERMICO 12OZ",
       "minor": "$47.00",
       "major": "$42.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "COMPAS PLASTICO MAS LAPIZ",
       "minor": "$1533.30",
       "major": "$1423.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "COMPOTERA CRISTAL",
       "minor": "$157.50",
       "major": "$143.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "COMPOTERA PLASTICA COLOR CHICA",
       "minor": "$497.00",
       "major": "$497.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "CONO GRIS PAPA CHICO",
       "minor": "$22.10",
       "major": "$21.30",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "CONO GRIS PAPA CON BASE",
       "minor": "$28.00",
       "major": "$25.00",
-      "cantidad": 6
+      "cantidad": 6,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "CONO GRIS PAPA GRANDE",
       "minor": "$32.50",
       "major": "$31.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "COPA 70 DEGUSTACION",
       "minor": "$270.00",
       "major": "$250.00",
-      "cantidad": 30
+      "cantidad": 30,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "COPA CHAMPAGNE PVC CARINA",
       "minor": "$324.40",
       "major": "$292.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "COPA SUNDAE",
       "minor": "$206.60",
       "major": "$199.60",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "CORBATA PLASTICA FCIA",
       "minor": "$597.70",
       "major": "$559.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "CORRECTOR LAPIZ",
       "minor": "$540.00",
       "major": "$540.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CORTINA CORAZON/ESTRELLA",
       "minor": "$1800.00",
       "major": "$1800.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CORTINA TORNASOL",
       "minor": "$1890.00",
       "major": "$1890.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CRAYON FILGO SUPER JUMBO",
       "minor": "$1900.00",
       "major": "$1900.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CUADERNO ESP CHICO X 84H",
       "minor": "$1757.00",
       "major": "$1647.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CUADERNO ESPIRAL GDE. X84H",
       "minor": "$2970.00",
       "major": "$2970.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "CUADERNO TAPA DURA 84 HOJAS MARATHON",
       "minor": "$2535.00",
       "major": "$2535.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "CUBETA N0",
       "minor": "$38.40",
       "major": "$35.90",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "CUBETA N1",
       "minor": "$35.10",
       "major": "$34.30",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "CUBETA N2",
       "minor": "$50.90",
       "major": "$48.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "CUBO P/JUGAR",
       "minor": "$800.00",
       "major": "$800.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "CUCHARA SUNDAE X50",
       "minor": "$1518.00",
       "major": "$1452.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "CUCHARA CAFE SUNDAE X50",
       "minor": "$1050.00",
       "major": "$975.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "CUCHARA DOCIFICADORA",
       "minor": "$106.30",
       "major": "$85.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "CUCHARA SOPERA X 25 KOVALPLAST",
       "minor": "$762.50",
       "major": "$732.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "CUCHARITA P/HELADO X250 GR (110 APROX)",
       "minor": "$1027.30",
       "major": "$982.80",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "CUCHILLOS NEGRO PL X50",
       "minor": "$992.20",
       "major": "$937.10",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "CUMPLE CARTEL GIBRE",
       "minor": "$134.80",
       "major": "$118.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CUMPLE PIÑATA MINIE",
       "minor": "$660.70",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "CUMPLE VELA TORCIONADA COLORES",
       "minor": "$202.50",
       "major": "$189.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "EMBLOCADA 15X25 1/2KG",
       "minor": "$1000.00",
       "major": "$850.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "EMBLOCADA 20X30 1KG",
       "minor": "$1330.00",
       "major": "$1235.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "EMBLOCADA 25X35 2KG",
       "minor": "$2100.00",
       "major": "$1950.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "EMBLOCADA 30X40 3KG",
       "minor": "$2660.00",
       "major": "$2470.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "EMBLOCADA 35X45 5KG",
       "minor": "$3780.00",
       "major": "$3510.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "EMBLOCADA 40X60 7KG",
       "minor": "$5390.00",
       "major": "$5005.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "EMBUDO 8CM DIFP",
       "minor": "$122.80",
       "major": "$102.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "ENSALADERA CRISTAL 1050 CC",
       "minor": "$350.40",
       "major": "$336.40",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "ESCARAPELA",
       "minor": "$199.20",
       "major": "$186.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "ESFERA TELGOPOR N01",
       "minor": "$109.70",
       "major": "$80.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N02",
       "minor": "$39.30",
       "major": "$37.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N04",
       "minor": "$105.30",
       "major": "$99.20",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N06",
       "minor": "$231.90",
       "major": "$217.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N08",
       "minor": "$571.20",
       "major": "$535.60",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N10",
       "minor": "$1423.00",
       "major": "$1321.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N12",
       "minor": "$2102.10",
       "major": "$1940.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N14",
       "minor": "$2782.40",
       "major": "$2596.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N16",
       "minor": "$2637.00",
       "major": "$2526.90",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERA TELGOPOR N21",
       "minor": "$4147.00",
       "major": "$3941.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ESFERAS FANTASIA X250G",
       "minor": "$154.80",
       "major": "$147.20",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "ESPADITAS X100 UND",
       "minor": "$1200.00",
       "major": "$1000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "ESTUCHE DIVICION GRANDE 24X14X5",
       "minor": "$1500.00",
       "major": "$1400.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ESTUCHE EXP 23*23*5 PROF",
       "minor": "$308.70",
       "major": "$297.70",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ESTUCHE EXP CHICO 185X160X90",
       "minor": "$279.30",
       "major": "$269.30",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ESTUCHE NAVIDAD IMPRESO VISOR 19*19*10",
       "minor": "$1102.50",
       "major": "$1047.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ESTUCHE PAPA IMPRESO ROJO BCO LINEAS",
       "minor": "$300.00",
       "major": "$270.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ESTUCHE SOUV3 C/VY 10X14X10",
       "minor": "$700.00",
       "major": "$600.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ESTUCHE VISOR FLORENCIA 10X10X6",
       "minor": "$771.80",
       "major": "$716.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "ETIQUETAS 12X22 BLANCO",
       "minor": "$1000.00",
       "major": "$900.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "FAJA P/TORTA 70CM X100 GRAMOS BLANCA",
       "minor": "$3863.80",
       "major": "$3409.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "FAJA P/TORTA 70CM X100GR GRIS",
       "minor": "$375.00",
       "major": "$343.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "FELPA FILGO LARGA X10",
       "minor": "$1140.00",
       "major": "$1140.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "FELPA LARGA X6",
       "minor": "$645.00",
       "major": "$645.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "FILM ADHER 38X100 NOBLEZA",
       "minor": "$3726.00",
       "major": "$3645.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FILM ADHER 38X100 INCA (SIN STOCK)",
       "minor": "$4274.90",
       "major": "$4393.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FILM ADHERENTE 30CM FAMILIAR (CAJA36)",
       "minor": "$1000.00",
       "major": "$900.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "FILM INCA U OTROS 38 X 600 MTS",
       "minor": "$21000.00",
       "major": "$19000.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FILM STRICH 10CM 0.45 KG",
       "minor": "$4500.00",
       "major": "$4000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FILM STRICH VIRGEN 4.5KG",
       "minor": "$21000.00",
       "major": "$21000.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FOLEX 14X14 P/HAMB 100GR",
       "minor": "$9000.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FOLEX 20X25 CHICO DUO/REMPLAZO",
       "minor": "$8800.00",
       "major": "$8400.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FOLEX 25X35 GRANDE ROLAND",
       "minor": "$9500.00",
       "major": "$9000.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FOLEX POR 100 GRS DUO/ROLAND",
       "minor": "$1040.00",
       "major": "$1021.40",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "FRAPERA PP NEGRA",
       "minor": "$377.50",
       "major": "$358.60",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "GALERA MINI GIBRE 12*6CM",
       "minor": "$236.20",
       "major": "$211.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GALERA PLASTICA FIGURA",
       "minor": "$211.60",
       "major": "$191.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GALERA TELA LUNAR 30*28CM",
       "minor": "$684.50",
       "major": "$602.80",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLITTER AEROSOL",
       "minor": "$2205.00",
       "major": "$2205.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "GLOBO \"LIKE\" 82*72CM",
       "minor": "$495.90",
       "major": "$437.50",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO ANIMALITO 40CM",
       "minor": "$255.00",
       "major": "$255.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO BATE 74 CM",
       "minor": "$223.10",
       "major": "$196.90",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO BEBE O MAMADERA 74CM",
       "minor": "$225.10",
       "major": "$204.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO BURBUJA 40 CM",
       "minor": "$386.40",
       "major": "$362.20",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO CORAZON 18\"",
       "minor": "$391.00",
       "major": "$345.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO CORAZON 5\"",
       "minor": "$107.10",
       "major": "$94.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO CORAZON LOVE 18",
       "minor": "$162.80",
       "major": "$139.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO CORAZON/PERSONAJES 10\"",
       "minor": "$170.00",
       "major": "$150.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO DIA DE LA MADRE",
       "minor": "$487.70",
       "major": "$433.60",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO ESTRELLA 23CM",
       "minor": "$90.60",
       "major": "$75.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO FELIZ CUM/PERSONAJES 18\"",
       "minor": "$409.50",
       "major": "$382.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO FELIZ CUMPLE 10\"",
       "minor": "$187.40",
       "major": "$165.40",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO GLOBOLOGIA",
       "minor": "$85.00",
       "major": "$75.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO LATEX BALLOONS",
       "minor": "$83.20",
       "major": "$78.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO LATEX FIESTA LOCA/PARTY TIME",
       "minor": "$58.30",
       "major": "$54.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO LATEX MULTICOLOR CANDELA X50 UNI",
       "minor": "$1400.00",
       "major": "$1400.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO LATEX PERLADO",
       "minor": "$172.80",
       "major": "$162.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO LOVE 50CM",
       "minor": "$228.80",
       "major": "$204.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO LOVE YOU 18",
       "minor": "$322.30",
       "major": "$284.40",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO METALIZADO T/CHROME 40CM",
       "minor": "$181.80",
       "major": "$160.40",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO NUM PLATEADO 16\"",
       "minor": "$270.00",
       "major": "$270.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO NUMERO 32\"",
       "minor": "$495.00",
       "major": "$495.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO NUMERO CELES 16\"",
       "minor": "$231.00",
       "major": "$211.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO NUMERO DORADO 16\"",
       "minor": "$294.70",
       "major": "$270.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO PIÑATA",
       "minor": "$825.00",
       "major": "$715.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO SILUETA SPIDERMAN",
       "minor": "$736.40",
       "major": "$736.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GLOBO UNICORNIO 14\"",
       "minor": "$151.00",
       "major": "$132.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GOMA BLANCA CHICA",
       "minor": "$120.00",
       "major": "$120.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "GOMA GRIS",
       "minor": "$390.00",
       "major": "$390.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "GOMA ROJA/AZUL",
       "minor": "$200.00",
       "major": "$200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "GOMILLA",
       "minor": "$7003.00",
       "major": "$6486.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "GOMILLAS BANDITAS X100GR",
       "minor": "$1500.00",
       "major": "$1500.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "GOMILLAS BANDITAS X50GR",
       "minor": "$800.00",
       "major": "$800.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "GORRO CARTON MIKEY MINNIE",
       "minor": "$126.00",
       "major": "$110.20",
-      "cantidad": 6
+      "cantidad": 6,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GORRO CASCO OBRERO 25*15*20 CM",
       "minor": "$171.10",
       "major": "$149.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GORRO FLUOR C/VISERA",
       "minor": "$693.40",
       "major": "$693.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GORRO GIBRE C/VICERA",
       "minor": "$369.50",
       "major": "$340.30",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GORRO MULTICOLOR (LUNAR)",
       "minor": "$680.60",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GORRO PELOTA DEPORTE",
       "minor": "$707.10",
       "major": "$647.10",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GORRO REY 23*18 CM",
       "minor": "$918.80",
       "major": "$853.20",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "GRADA PAMPA KRAFT X",
       "minor": "$188.80",
       "major": "$151.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "GUANTE NITRILO NEGRO X CAJA",
       "minor": "$11000.00",
       "major": "$11000.00",
-      "cantidad": 1
+      "cantidad": 1,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "GUANTES DE NITRILO XUND",
       "minor": "$350.00",
       "major": "$330.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "GUANTES LATEX X CAJA",
       "minor": "$10617.80",
       "major": "$10224.50",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cajas y embalajes"
     },
     {
       "name": "GUANTES LATEX X UND",
       "minor": "$143.00",
       "major": "$119.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "GUANTES POLIETILENO PK X100",
       "minor": "$1440.00",
       "major": "$1440.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "GUIRNALDA",
       "minor": "$339.80",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "HERM ENCANTA CUAD 23",
       "minor": "$249.50",
       "major": "$268.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "HERM ENCANTA CUAD 39",
       "minor": "$556.10",
       "major": "$556.10",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "HERM ENCANTA RECT 75",
       "minor": "$517.50",
       "major": "$480.60",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "HERM ENCANTA RED 210",
       "minor": "$360.20",
       "major": "$354.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "HIELERA HERAL CHICA",
       "minor": "$478.20",
       "major": "$439.90",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "HIELERA PP NEGRA",
       "minor": "$490.80",
       "major": "$471.90",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "HIGIENICO CAMPANITA TEXT X 4",
       "minor": "$1200.00",
       "major": "$1100.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "HILO OVILLO ALGODON NATURAL",
       "minor": "$510.00",
       "major": "$472.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "HILO PIZZERO ALGODON X300GR",
       "minor": "$2500.00",
       "major": "$2000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "INFLADOR MEGA",
       "minor": "$1493.30",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "JUGUETE PIÑATA",
       "minor": "$1911.00",
       "major": "$1774.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "LA GOTITA",
       "minor": "$2700.00",
       "major": "$2500.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "LAMINA PLASTICO CRISTAL",
       "minor": "$825.00",
       "major": "$825.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "LAMPARA + PANEL SOLAR",
       "minor": "$820.20",
       "major": "$550.00",
-      "cantidad": 24
+      "cantidad": 24,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "LAMPARA CAPIBARA PULPO",
       "minor": "$2242.10",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "LAMPARA LED 14W",
       "minor": "$1300.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "LAMPARA LED 7W",
       "minor": "$715.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "LAMPARA LED 9W",
       "minor": "$801.80",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "LAPICERA DOLCHE / FILGO STICK COLOR",
       "minor": "$2200.10",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LAPICERA FILGO STICK X UNIDAD",
       "minor": "$200.00",
       "major": "$200.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LAPICERA FILGO SUBE/BAJA",
       "minor": "$450.00",
       "major": "$400.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LAPICERA FLEXIBLE ANIMALITOS",
       "minor": "$1060.70",
       "major": "$1022.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LAPIZ COLOR LARGO FILGO",
       "minor": "$1380.00",
       "major": "$1380.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LAPIZ NEGRO FILGO X UNIDAD",
       "minor": "$136.00",
       "major": "$136.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LIBRETA CON ESPIRAL",
       "minor": "$900.00",
       "major": "$900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LIBRO ACTIVIDADES VALIJITA INFANTIL",
       "minor": "$2796.30",
       "major": "$2313.60",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LIBRO PARA COLOREAR INFANTIL",
       "minor": "$2520.10",
       "major": "$2240.10",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "LLAVERO PERSONAJE INFANTIL",
       "minor": "$2500.00",
       "major": "$1562.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MACETA BOLS MONADO 12",
       "minor": "$281.20",
       "major": "$256.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MACETA BOLS MONADO 18",
       "minor": "$493.00",
       "major": "$459.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MACETA BOLS MONADO 21",
       "minor": "$838.10",
       "major": "$780.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MACETA ROCIO 11",
       "minor": "$210.00",
       "major": "$190.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MACETA ROCIO 13",
       "minor": "$476.60",
       "major": "$434.70",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MACETA ROCIO 8",
       "minor": "$180.00",
       "major": "$170.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MALETIN GRANDE P TORTA",
       "minor": "$3000.00",
       "major": "$2600.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MAMADERA MINI 250CC",
       "minor": "$660.70",
       "major": "$613.50",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MAMADERA RED CHICA",
       "minor": "$594.60",
       "major": "$552.10",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MANTEL COLOR 120*200 CM",
       "minor": "$2000.00",
       "major": "$1700.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MANTEL METALIZADO/ESTAMP",
       "minor": "$1800.00",
       "major": "$1800.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MAPA CARTA",
       "minor": "$150.00",
       "major": "$150.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MAQUILLAJE ARTISTICO",
       "minor": "$590.60",
       "major": "$551.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MARCADOR CON SELLO X 6",
       "minor": "$3333.00",
       "major": "$3333.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR DOS PUNTAS NEGRO",
       "minor": "$1092.00",
       "major": "$1092.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR ECONOMICO",
       "minor": "$210.00",
       "major": "$210.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR JUMBO FILGO",
       "minor": "$3450.00",
       "major": "$3450.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR PIZARRA NEGRO",
       "minor": "$1080.00",
       "major": "$1080.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR RESALTADOR FILGO FINO",
       "minor": "$592.00",
       "major": "$592.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR RESALTADOR PASTEL FILGO",
       "minor": "$512.40",
       "major": "$512.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR RESALTADOR TRABI",
       "minor": "$630.00",
       "major": "$630.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MARCADOR TRABI/FILGO NEGRO PERMANENTE",
       "minor": "$935.00",
       "major": "$935.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "MASCARA ALIEN 28*17CM",
       "minor": "$262.50",
       "major": "$236.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MASCARA HALLOWEEN",
       "minor": "$1000.00",
       "major": "$1000.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MASCARA PERSONAJE 20*18CM",
       "minor": "$158.50",
       "major": "$136.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MATE + BOMBILLA AUTOLIMPIANTE",
       "minor": "$5000.00",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "MOLDE BIZCOCHUELO N18",
       "minor": "$274.10",
       "major": "$263.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE BIZCOCHUELO N20",
       "minor": "$289.00",
       "major": "$277.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE BIZCOCHUELO N22",
       "minor": "$303.80",
       "major": "$292.10",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE BUDIN ALUMINIO 1KG",
       "minor": "$333.00",
       "major": "$310.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MOLDE BUDIN ALUMINIO 2500GR B260",
       "minor": "$202.50",
       "major": "$189.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MOLDE BUDIN ALUMINIO 300GR B60",
       "minor": "$225.00",
       "major": "$210.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MOLDE BUDIN ALUMINIO B120 (220GR APROX)",
       "minor": "$165.00",
       "major": "$152.90",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MOLDE HUEVO PVC N 1",
       "minor": "$31.50",
       "major": "$634.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N 2",
       "minor": "$683.50",
       "major": "$634.70",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N 5",
       "minor": "$683.50",
       "major": "$634.70",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N 6",
       "minor": "$651.00",
       "major": "$604.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N 7",
       "minor": "$683.50",
       "major": "$634.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N 8",
       "minor": "$683.50",
       "major": "$634.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N 9",
       "minor": "$683.50",
       "major": "$634.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N10",
       "minor": "$683.50",
       "major": "$634.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N12",
       "minor": "$735.00",
       "major": "$682.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N13",
       "minor": "$735.00",
       "major": "$682.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N15",
       "minor": "$735.00",
       "major": "$682.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N18",
       "minor": "$735.00",
       "major": "$682.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE HUEVO PVC N20",
       "minor": "$735.00",
       "major": "$682.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE PAN DULCE 1/2",
       "minor": "$153.90",
       "major": "$142.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE PAN DULCE 1/4",
       "minor": "$101.30",
       "major": "$93.80",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE PAN DULCE 100 GR",
       "minor": "$102.60",
       "major": "$95.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE PAN DULCE 1KG",
       "minor": "$175.50",
       "major": "$162.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE PAPEL BUDIN 200GR 13.5CM",
       "minor": "$186.30",
       "major": "$178.20",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MOLDE PAPEL BUDIN 300GR 18.5CM",
       "minor": "$243.00",
       "major": "$225.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "MOLDE ROSCA N18",
       "minor": "$331.50",
       "major": "$318.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE ROSCA N20",
       "minor": "$339.30",
       "major": "$326.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOLDE ROSCA N22",
       "minor": "$353.60",
       "major": "$340.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "MOÑO FANTASIA 22CM (200UNID) INPLA",
       "minor": "$29.50",
       "major": "$27.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO FANTASIA 36CM (200UNID) INPLA",
       "minor": "$55.50",
       "major": "$51.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO FANTASIA 42CM (200UNID) INPLA",
       "minor": "$70.50",
       "major": "$65.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO LISO 22CM(200UNID) INPLA",
       "minor": "$37.50",
       "major": "$35.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO LISO 36CM(200UNID) INPLA",
       "minor": "$57.00",
       "major": "$53.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO LISO 42CM (200UNID) INPLA",
       "minor": "$70.50",
       "major": "$65.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO MAGICO 12 CM PACKERS",
       "minor": "$51.00",
       "major": "$48.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑO MAGICO 25 CM STARPACK",
       "minor": "$52.50",
       "major": "$49.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑOS STARPACK 40CM",
       "minor": "$61.50",
       "major": "$58.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MOÑOS STARPACK 50CM",
       "minor": "$69.00",
       "major": "$65.30",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "MORTERO LANZA PAPEL",
       "minor": "$3300.00",
       "major": "$3300.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "NEW BABIES GOMILLITAS",
       "minor": "$350.00",
       "major": "$400.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "NIEVE AEROSOL",
       "minor": "$2500.00",
       "major": "$2300.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "OBLEA 245 REDONDA 24,5CM",
       "minor": "$43.60",
       "major": "$40.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "OBLEA 629 REDONDA",
       "minor": "$118.80",
       "major": "$114.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "OBLEA EXP BX 628 240 MM REDONDA",
       "minor": "$205.00",
       "major": "$201.60",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "OFERTA PAR DE ARITOS",
       "minor": "$1000.00",
       "major": "$1000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "ORGANIZADORES CHICO",
       "minor": "$2698.50",
       "major": "$2698.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PALILLERO 50UND",
       "minor": "$508.20",
       "major": "$465.90",
-      "cantidad": 12
+      "cantidad": 12,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "PALILLOS A GRANEL X 500",
       "minor": "$2240.00",
       "major": "$2112.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PALILLOS BROCHETE 20CMX50",
       "minor": "$1804.50",
       "major": "$1680.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PALILLOS BROCHETTE 30CM X50",
       "minor": "$1800.00",
       "major": "$1680.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PALITO HELADO COLOR",
       "minor": "$988.00",
       "major": "$988.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PALITO HELADO X50",
       "minor": "$826.00",
       "major": "$826.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PALOS PORTA GLOBO X UND",
       "minor": "$77.00",
       "major": "$71.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "PAPEL BLONDA BORDADA 10CM",
       "minor": "$12.80",
       "major": "$10.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 12CM",
       "minor": "$15.60",
       "major": "$12.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 13CM",
       "minor": "$18.90",
       "major": "$15.30",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 15CM",
       "minor": "$20.10",
       "major": "$16.30",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 18CM",
       "minor": "$25.20",
       "major": "$20.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 18X25",
       "minor": "$48.00",
       "major": "$42.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 21CM",
       "minor": "$39.70",
       "major": "$32.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 21X27",
       "minor": "$56.00",
       "major": "$49.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 24CM",
       "minor": "$52.80",
       "major": "$41.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 25CM",
       "minor": "$46.00",
       "major": "$37.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 26X32",
       "minor": "$76.80",
       "major": "$67.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 26X37",
       "minor": "$77.90",
       "major": "$63.30",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 28CM",
       "minor": "$60.80",
       "major": "$53.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 30CM",
       "minor": "$84.00",
       "major": "$68.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 31X38",
       "minor": "$88.00",
       "major": "$77.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 32CM",
       "minor": "$80.00",
       "major": "$70.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 34X41",
       "minor": "$78.40",
       "major": "$63.70",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 35CM",
       "minor": "$81.50",
       "major": "$66.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 35X45",
       "minor": "$112.00",
       "major": "$98.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 36CM",
       "minor": "$88.00",
       "major": "$77.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 38CM",
       "minor": "$88.50",
       "major": null,
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 38CM",
       "minor": "$84.00",
       "major": "$73.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 38CM",
       "minor": "$71.90",
       "major": null,
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 40CM",
       "minor": "$88.30",
       "major": "$86.40",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 40X50",
       "minor": "$132.80",
       "major": "$116.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA BORDADA 9CM",
       "minor": "$15.50",
       "major": "$12.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA COLOR 11CM",
       "minor": "$49.50",
       "major": "$44.60",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA COLOR 9 CM",
       "minor": "$44.50",
       "major": "$40.10",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA CORAZON 10CM",
       "minor": "$31.30",
       "major": "$28.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA N10 LUNARES",
       "minor": "$31.30",
       "major": "$28.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL BLONDA N13 LUNARES",
       "minor": "$37.60",
       "major": "$33.80",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL CELOFAN COLOR Y ESTAMP",
       "minor": "$242.00",
       "major": "$125.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL CELOFAN GDE",
       "minor": "$449.90",
       "major": "$432.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL CREPE",
       "minor": "$450.00",
       "major": "$450.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL MANTECA 98X77",
       "minor": "$866.20",
       "major": "$866.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL MEGA HIGIENICO XL",
       "minor": "$1200.00",
       "major": "$1000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL PARA FORRAR X UNID",
       "minor": "$565.50",
       "major": "$565.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL PARAFINADO CUADRO ROJO/NEGRO 25X40 100GR",
       "minor": "$1712.20",
       "major": "$1637.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL PICADO X100GR",
       "minor": "$600.00",
       "major": "$560.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL REGALO COLORES VARIOS C/U",
       "minor": "$94.40",
       "major": "$84.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL SEDA FANTASIA C/U",
       "minor": "$28.30",
       "major": "$16.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL SEDA LISO C/U",
       "minor": "$200.00",
       "major": "$190.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL SEDA LUNARES C/U",
       "minor": "$28.30",
       "major": "$23.20",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL SOBRE 12X18",
       "minor": "$48.60",
       "major": "$43.20",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "PAPEL SOBRE 20X29",
       "minor": "$60.20",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "PAPEL SOBRE 25X35",
       "minor": "$99.30",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "PAPEL SOBRE 7X9",
       "minor": "$27.90",
       "major": "$24.80",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "PAPEL SULF 40X50 CHICO X1KG",
       "minor": "$1960.00",
       "major": "$1820.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL SULF 45X64 MED X1KG",
       "minor": "$1960.00",
       "major": "$1820.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAPEL SULF 52X72 GDE X1KG",
       "minor": "$1960.00",
       "major": "$1820.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PAQ. PLATO COLOR X 10 UNI. (SON STOCK)",
       "minor": "$634.80",
       "major": "$607.20",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PARAFINADO KRAFT 35X40",
       "minor": "$1932.00",
       "major": "$1848.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "PARLANTE",
       "minor": "$9000.00",
       "major": "$9000.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PECHERA CARTON GRANADERO",
       "minor": "$502.10",
       "major": "$468.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "PEINA PLASTICO ECO",
       "minor": "$1040.00",
       "major": "$1040.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "PELUCA AFRO MULTICOLOR",
       "minor": "$1029.20",
       "major": "$955.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "PELUCA COLOR LISA 50CM",
       "minor": "$1903.30",
       "major": "$1865.20",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "PILAS",
       "minor": "$459.00",
       "major": "$459.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PINCEL X UNIDAD",
       "minor": "$236.20",
       "major": "$236.20",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "PINCHE MOLINO METALIZADO",
       "minor": "$297.00",
       "major": "$275.00",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "PINCHOS P/CATERING CORTO X20",
       "minor": "$267.10",
       "major": "$242.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PINCHOS P/CATERING LARGOS X20",
       "minor": "$650.00",
       "major": "$600.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PINCHOS P/CATERING PLASTICOS 15CM X12",
       "minor": "$237.50",
       "major": "$197.90",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PINTA PELO SPRAY",
       "minor": "$2100.00",
       "major": "$2100.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "PINZA PARA ENSALADA COLOR",
       "minor": "$478.20",
       "major": "$459.10",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PIROTIN N10 COMUN X 25",
       "minor": "$960.00",
       "major": "$780.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTIN N5 FANTASIA X 25",
       "minor": "$526.80",
       "major": "$449.20",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTIN N8 SUPER X25",
       "minor": "$528.00",
       "major": "$495.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N10 ROJOS X25",
       "minor": "$635.20",
       "major": "$598.30",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N4 X 25",
       "minor": "$240.00",
       "major": "$225.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N5 X25",
       "minor": "$263.50",
       "major": "$238.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N6 X 25",
       "minor": "$304.00",
       "major": "$275.50",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N7 X 25",
       "minor": "$374.00",
       "major": "$319.10",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N8 X 25",
       "minor": "$400.00",
       "major": "$362.60",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIROTINES N9 X 25",
       "minor": "$480.00",
       "major": "$450.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "PIZARRA MAGNETICA BCA A4 22X28",
       "minor": "$6170.90",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "PLASTICOLA SRTA X 30GR",
       "minor": "$240.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "PLASTICOLA TINTORETO X 50GR",
       "minor": "$370.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "PLASTILINA ALBA MAGIC",
       "minor": "$300.00",
       "major": "$300.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "PLATO 17CM BP BCO",
       "minor": "$120.00",
       "major": "$105.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO 17CM BP COLOR",
       "minor": "$144.00",
       "major": "$134.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO 22 CM MASTER",
       "minor": "$105.00",
       "major": "$98.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO BLONDA PVC 24 CM",
       "minor": "$16.10",
       "major": "$14.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO BLONDA PVC 27CM(SIN STOCK)",
       "minor": "$1838.00",
       "major": "$1671.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO BLONDA PVC 33 CM",
       "minor": "$3517.70",
       "major": "$3220.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO CUADRADO CHICO X 25 ( SIN STOCK)",
       "minor": "$475.70",
       "major": "$441.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO DIP LAMINADO DOR O PLAT (26CM)",
       "minor": "$900.00",
       "major": "$800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO DIP LAMINADO DORADA (30CM)",
       "minor": "$750.00",
       "major": "$680.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO DIP LAMINADO DORADA N16 (12CM)",
       "minor": "$281.20",
       "major": "$258.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO DIP LAMINADO DORADA N28 (22CM)",
       "minor": "$518.00",
       "major": "$476.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO DIP LAMINADO DORADA N36 (28CM)",
       "minor": "$560.00",
       "major": "$520.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADA N8 39CM (SIN STOCK)",
       "minor": "$1476.90",
       "major": "$1357.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADA N9 41,25CM (SIN STOCK)",
       "minor": "$2368.00",
       "major": "$2176.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO DIP DOR O PLAT (35CM)",
       "minor": "$1200.00",
       "major": "$1100.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N1 16CM (SIN STOCK)",
       "minor": "$175.40",
       "major": "$166.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N2 19CM (SIN STOCK)",
       "minor": "$343.40",
       "major": "$315.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N3 22CM (SIN STOCK)",
       "minor": "$355.20",
       "major": "$326.40",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N3 22CM (SIN STOCK)",
       "minor": "$419.60",
       "major": "$385.60",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N4 26CM (SIN STOCK)",
       "minor": "$657.70",
       "major": "$605.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N5 28CM (SIN STOCK)",
       "minor": "$592.00",
       "major": "$544.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N6 32CM (SIN STOCK)",
       "minor": "$1184.00",
       "major": "$1088.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO LAMINADO N7 35CM (SIN STOCK)",
       "minor": "$2220.00",
       "major": "$2040.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATO PICADA 6 DIV SIN TAPA",
       "minor": "$461.50",
       "major": "$430.70",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLATOS INFANTILES X8",
       "minor": "$262.50",
       "major": "$262.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PLURISBOL PLASTICO PARA EMBALAR POR METRO",
       "minor": "$936.00",
       "major": "$873.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "PORTA BOTELLA TERMICO",
       "minor": "$1540.50",
       "major": "$1386.50",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PORTA GLOBO GDE NGRO",
       "minor": "$75.50",
       "major": "$66.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "PORTA PANCHO CHICO",
       "minor": "$15.60",
       "major": "$15.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PORTA SUPER PANCHO XL",
       "minor": "$29.70",
       "major": "$28.20",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "PORTA VASOS DESCARTABLES",
       "minor": "$224.40",
       "major": "$194.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "PORTADAS CARPETA X6",
       "minor": "$570.00",
       "major": "$570.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "POSA PAVA MADERA",
       "minor": "$501.30",
       "major": "$501.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "POTE ADEREZO TRANSPARENTE ALTO",
       "minor": "$2501.70",
       "major": "$2465.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE ADEREZO TRANSPARENTE BAJO",
       "minor": "$2179.90",
       "major": "$2027.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE BISAGRA 250CC BAJO",
       "minor": "$197.00",
       "major": "$186.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE BISAGRA 450CC MEDIANO",
       "minor": "$200.00",
       "major": "$190.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE BISAGRA 500CC ALTO",
       "minor": "$252.80",
       "major": "$240.70",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE C/TAPA 1/2 KG WORK 380CC",
       "minor": "$230.00",
       "major": "$220.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE C/TAPA 1/4 KG WORK 250CC",
       "minor": "$175.00",
       "major": "$165.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE C/TAPA 1/8 WORK 125 CC",
       "minor": "$160.00",
       "major": "$150.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE C/TAPA 1KG WORK 800CC",
       "minor": "$450.00",
       "major": "$403.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE CON TAPA 500CC BELEN MICRO",
       "minor": "$260.00",
       "major": "$250.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE HELADO C/TAPA 1/2KG",
       "minor": "$550.00",
       "major": "$480.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE HELADO C/TAPA 1 KG",
       "minor": "$800.00",
       "major": "$650.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE HELADO C/TAPA 1/4KG",
       "minor": "$340.00",
       "major": "$310.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE PVC 250CC C/TAPA ( SIN STOCK)",
       "minor": "$66.10",
       "major": "$56.60",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POTE SOUFFLE 1.5OZ",
       "minor": "$94.50",
       "major": "$91.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "POXIRAN",
       "minor": "$4224.70",
       "major": "$4062.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "PRECINTOS PLASTICOS 25GR",
       "minor": "$829.40",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "RELOJ CALCULADORA",
       "minor": "$2500.00",
       "major": "$1500.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "RELOJ PERSONAJE INFANTIL",
       "minor": "$2530.00",
       "major": "$1420.70",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "REPUESTO AMERICA X 48 H CUAD/RAY",
       "minor": "$1527.80",
       "major": "$1527.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "REPUESTO DIBUJO Nº 3",
       "minor": "$504.00",
       "major": "$504.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "REPUESTO DIBUJO Nº 5",
       "minor": "$800.00",
       "major": "$800.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "REPUESTO DIBUJO Nº 6",
       "minor": "$1399.80",
       "major": "$1399.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "REPUESTO GLORIA 100H.",
       "minor": "$2539.70",
       "major": "$2222.20",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "ROCIADOR 800CC 400CC",
       "minor": "$5000.00",
       "major": "$5000.00",
-      "cantidad": 1
+      "cantidad": 1,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "ROLLO ALUMINIO X1KG INPLA",
       "minor": "$11040.00",
       "major": "$10560.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO ALUMINIO FAMILIAR 28X5 MTS (X25)",
       "minor": "$1000.00",
       "major": "$900.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO COC GIG ELEG",
       "minor": "$226.50",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO COCINA SOL MAYOR 200 MTS",
       "minor": "$1500.00",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO ETIQUETA 44X55 P/BALANZA",
       "minor": "$3396.60",
       "major": "$3229.20",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO MANTECA GRANDE 1K",
       "minor": "$6900.00",
       "major": "$6600.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO NUMERO TURNO",
       "minor": "$1704.00",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO PAPEL MANTECA 5CM",
       "minor": "$1200.00",
       "major": "$1000.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO TERMICO 57X20",
       "minor": "$840.00",
       "major": "$780.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO TERMICO 57X30",
       "minor": "$980.00",
       "major": "$910.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO TERMICO 80X30",
       "minor": "$1040.00",
       "major": "$1000.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROLLO TERMICO 80X50",
       "minor": "$1495.00",
       "major": "$1437.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "ROMPECABEZAS",
       "minor": "$2826.60",
       "major": "$2782.10",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "ROTULO 12/15 PERSONAJES",
       "minor": "$120.00",
       "major": "$120.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "ROTULO ESCOLAR MINI",
       "minor": "$30.00",
       "major": "$30.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "SACACORCHO",
       "minor": "$899.00",
       "major": "$899.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "SACAPUNTAS PLAST",
       "minor": "$288.00",
       "major": "$288.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "SALDO RETENCION IMPUESTO IBB",
       "minor": "$-517.40",
       "major": null,
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "SALERO/PIMENTERO PLAST",
       "minor": "$266.10",
       "major": "$245.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "SDPOINBL",
       "minor": "$190.70",
       "major": "$0.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "SERPENTINA AEROSOL 90ML",
       "minor": "$2492.00",
       "major": "$2314.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "SERVILLETA MIRCOPEL 30X30",
       "minor": "$6539.40",
       "major": "$6277.90",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "SERVILLETA PALMAR 24X24 (SIN STOCK)",
       "minor": "$17614.80",
       "major": "$16853.80",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "SERVILLETERO MEDIALUNA",
       "minor": "$591.50",
       "major": "$537.70",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "SET DE GLOBOS PERSONAJES",
       "minor": "$3755.40",
       "major": "$3755.40",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "SET DE LIBRERIA NIÑOS",
       "minor": "$3700.00",
       "major": "$3700.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "SET ESCOLAR GEM",
       "minor": "$368.40",
       "major": "$327.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "SET GEOMETRIA X 3 PZAS",
       "minor": "$900.00",
       "major": "$900.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "SILICONA EN BARRA",
       "minor": "$160.80",
       "major": "$154.60",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "SILICONA LIQUIDAX100CC",
       "minor": "$2380.00",
       "major": "$2380.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "SILICONA LIQUIDAX30CC",
       "minor": "$910.00",
       "major": "$910.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "SOBRE PAPEL 09X15",
       "minor": "$38.00",
       "major": "$34.20",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "SOBRE PAPEL 14X21",
       "minor": "$40.60",
       "major": "$37.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "SOBRE PAPEL 15X25",
       "minor": "$59.20",
       "major": "$52.60",
-      "cantidad": 20
+      "cantidad": 20,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "SOBRES INVITACION/BLANCO",
       "minor": "$66.70",
       "major": "$66.70",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "SOMBRERO RANCHO FLUO/FCIA",
       "minor": "$152.10",
       "major": "$133.90",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "SOPORTE HUEVO CARTON",
       "minor": "$37.80",
       "major": "$18.90",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "SORBETE POLIPAPEL ECONO X 20",
       "minor": "$436.80",
       "major": "$436.80",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "SORBETES COLORES DEL SUR X100",
       "minor": "$966.00",
       "major": "$910.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "SORBETES FUNDA PAPEL PRECIO POR 100 (BOLSA X1000)",
       "minor": "$1388.40",
       "major": "$1315.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Otras bolsas y sobres"
     },
     {
       "name": "SORBETES NEGROS XL X100",
       "minor": "$1144.00",
       "major": "$1068.60",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "SORBETES POLIPAPEL UNID",
       "minor": "$33.20",
       "major": "$26.60",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Papeles y envoltorios"
     },
     {
       "name": "SOUFFLE BAMBOO 2OZ 80CC",
       "minor": "$100.00",
       "major": "$90.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "SOUFFLE TRANSPARENTE 2OZ 80CC",
       "minor": "$150.00",
       "major": "$140.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "SOUFLE NEGRO 30CC CON TAPA ELEFANTITO",
       "minor": "$65.00",
       "major": "$60.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "TALONARIO CHICO DUPLICADO",
       "minor": "$1204.00",
       "major": "$1204.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TALONARIO CHICO ECONOM TRANSPARENTE",
       "minor": "$759.20",
       "major": "$740.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TALONARIO NUMERO 1AL200",
       "minor": "$4851.00",
       "major": "$4527.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TAPA VASO TERMICO 180CC 6JL PICO",
       "minor": "$49.40",
       "major": "$47.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TAPA VASO TERMICO 180CC 6JL RESPIRADERO",
       "minor": "$46.80",
       "major": "$45.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TAPA VASO TERMICO 240CC PICO",
       "minor": "$53.30",
       "major": "$51.20",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TAPA VASO TERMICO 240CC RESPIRADERO",
       "minor": "$54.00",
       "major": "$52.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TAPA VASO TERMICO 300CC 10JL PICO",
       "minor": "$60.90",
       "major": "$56.70",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TAPA VASO TERMICO 300CC 10JL RESPIRADERO",
       "minor": "$62.40",
       "major": "$60.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TARTERA PVC NEGRA 22CM BAJA EXAGONAL",
       "minor": "$700.00",
       "major": "$580.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TARTERA PVC NEGRA 27 BAJA",
       "minor": "$1000.00",
       "major": "$960.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TARTERA PVC NEGRA 27CM ALTA",
       "minor": "$1187.50",
       "major": "$1140.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TARTERA PVC NEGRA 29CM ALTA",
       "minor": "$1682.30",
       "major": "$1570.10",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TARTERA PVC NEGRA 29CM BAJA",
       "minor": "$1459.70",
       "major": "$1357.30",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TARTERA PVC NEGRA 34CM ALTA",
       "minor": "$1885.10",
       "major": "$1803.10",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TARTERA PVC NEGRA 34CM BAJA",
       "minor": "$1821.60",
       "major": "$1742.40",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Repostería y gastronomía"
     },
     {
       "name": "TAZA GDE 9.6 CM MODER",
       "minor": "$361.20",
       "major": "$335.40",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "TAZA IINFANTIL",
       "minor": "$1200.00",
       "major": "$1200.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "TAZA IMPRESA CON PLATO PERSONAJES",
       "minor": "$3621.80",
       "major": "$3621.80",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "TAZA INFANTIL CON TAPA",
       "minor": "$646.80",
       "major": "$600.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Envases, bandejas y potes"
     },
     {
       "name": "TAZA LISA CON AGARRE",
       "minor": "$281.80",
       "major": "$263.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "TAZA PLASTICA RECTA",
       "minor": "$281.50",
       "major": "$241.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "TAZON SOPERO",
       "minor": "$786.60",
       "major": "$757.50",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "TEMPERA SEÑORITA X UNIDAD",
       "minor": "$180.00",
       "major": "$162.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TENEDOR NEGRO/BLANCO PL X50",
       "minor": "$1071.40",
       "major": "$1011.90",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "TIJERA 13 CM",
       "minor": "$680.00",
       "major": "$660.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TIJERA GRANDE",
       "minor": "$3200.00",
       "major": "$3200.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TIZA BLANCA/COLOR",
       "minor": "$100.00",
       "major": "$80.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Librería y manualidades"
     },
     {
       "name": "TOALLA DE MANO INFANTIL",
       "minor": "$1485.00",
       "major": "$1375.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "TOALLA INTERCALADAS P/MANOS BEIGE",
       "minor": "$781.50",
       "major": "$721.40",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Higiene y limpieza"
     },
     {
       "name": "TRABAS EL PAR",
       "minor": "$500.00",
       "major": "$500.00",
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "TRIANGULITO SANGUCHE",
       "minor": "$169.00",
       "major": "$162.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "TRIDENTE 100GR",
       "minor": "$361.40",
       "major": "$338.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "TUBO PULSERA NEON",
       "minor": "$3213.30",
       "major": "$2983.80",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "UNIPOX UNIVERSAL",
       "minor": "$3080.00",
       "major": "$3080.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Varios y accesorios"
     },
     {
       "name": "UTENSILLO DIFP",
       "minor": "$473.50",
       "major": "$439.70",
-      "cantidad": 2
+      "cantidad": 2,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "VARITAS COPOS DE NIVE",
       "minor": "$184.70",
       "major": "$155.60",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Hogar, cocina y accesorios"
     },
     {
       "name": "VASO 12 OZ DOMO CHICO C/TAPA",
       "minor": "$450.00",
       "major": "$420.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO 16 OZ DOMO GDE C/TAPA",
       "minor": "$630.00",
       "major": "$600.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO ALUMINIO130CC",
       "minor": "$135.20",
       "major": "$127.40",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO CON CUCHARA",
       "minor": "$905.40",
       "major": null,
-      "cantidad": null
+      "cantidad": null,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO CON PLATO NIÑO",
       "minor": "$1500.00",
       "major": "$1500.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO CON SORBETES",
       "minor": "$1600.00",
       "major": "$1600.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO CONICO GRIS 400CC",
       "minor": "$325.80",
       "major": "$293.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO IMPRESO NIÑO",
       "minor": "$1200.00",
       "major": "$1200.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PAJITA MIRADOR",
       "minor": "$617.00",
       "major": "$567.60",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PARIS CONICO 600CC",
       "minor": "$521.30",
       "major": "$488.70",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 1000CC 1 LITRO DPM (B750)",
       "minor": "$195.00",
       "major": "$187.50",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 110CC BLANCO",
       "minor": "$63.00",
       "major": "$58.50",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 120 CC BELEN CON TAPA",
       "minor": "$68.00",
       "major": "$65.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 150 CC BELEN CON TAPA",
       "minor": "$82.00",
       "major": "$78.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 220CC BCO DPM",
       "minor": "$52.00",
       "major": "$49.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 250CC BELEN CRISTAL",
       "minor": "$52.40",
       "major": "$50.20",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 300CC BCO DPM",
       "minor": "$60.00",
       "major": "$56.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 300CC PC LIMONERO",
       "minor": "$55.00",
       "major": "$51.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 330CC WORK",
       "minor": "$110.30",
       "major": "$107.60",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 500CC DPM",
       "minor": "$90.60",
       "major": "$86.40",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 500CC WORK",
       "minor": "$102.00",
       "major": "$96.90",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 800CC DPM",
       "minor": "$157.30",
       "major": "$151.20",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO 90CC BELEN",
       "minor": "$40.00",
       "major": "$35.00",
-      "cantidad": 100
+      "cantidad": 100,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO COLOR ROJO AMERICANO (SIN STOCK)",
       "minor": "$55.50",
       "major": "$52.10",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO180CC BCO Y CRISTAL",
       "minor": "$51.00",
       "major": "$48.00",
-      "cantidad": 50
+      "cantidad": 50,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO180CC BELEN",
       "minor": "$45.00",
       "major": "$42.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO PLASTICO180CC COLOR",
       "minor": "$67.90",
       "major": "$66.50",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO POLIPAPEL + TAPA 12OZ IMPRESO",
       "minor": "$260.00",
       "major": "$250.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO POLIPAPEL 240CC",
       "minor": "$139.70",
       "major": "$129.70",
-      "cantidad": 8
+      "cantidad": 8,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO SHOT 50CC DEGUSTACION",
       "minor": "$250.00",
       "major": "$230.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO SHOT CRISTAL",
       "minor": "$25.00",
       "major": "$230.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO STARK GLITER",
       "minor": "$1414.30",
       "major": "$1414.30",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TERMICO 120CC (TIRA X 25)",
       "minor": "$87.60",
       "major": "$81.10",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TERMICO 180CC (TIRA X 25)",
       "minor": "$103.60",
       "major": "$96.20",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TERMICO 240CC (TIRA X 25)",
       "minor": "$110.70",
       "major": "$102.50",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TERMICO 300CC (TIRA X 25)",
       "minor": "$134.30",
       "major": "$127.20",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TERMICO 360CC (TIRA X 25)",
       "minor": "$162.00",
       "major": "$150.00",
-      "cantidad": 25
+      "cantidad": 25,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TRAGO LARGO COLOR",
       "minor": "$234.60",
       "major": "$221.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TRAGO LARGO LUNARES X10",
       "minor": "$234.60",
       "major": "$221.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VASO TRAGO LARGO TRANSPARENTE",
       "minor": "$199.80",
       "major": "$192.40",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Vajilla descartable"
     },
     {
       "name": "VELA BENGALA",
       "minor": "$496.00",
       "major": "$496.00",
-      "cantidad": 4
+      "cantidad": 4,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "VELA BENGALA C/GIBRE",
       "minor": "$640.00",
       "major": "$640.00",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "VELA CORAZON GDE GIBRE",
       "minor": "$252.00",
       "major": "$236.20",
-      "cantidad": 3
+      "cantidad": 3,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "VELA NUMERO ROSA/CELESTE",
       "minor": "$602.00",
       "major": "$602.00",
-      "cantidad": 10
+      "cantidad": 10,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "VELAS FINITAS",
       "minor": "$208.00",
       "major": "$195.00",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
       "name": "VELAS LED COLOR",
       "minor": "$362.40",
       "major": "$339.80",
-      "cantidad": 5
+      "cantidad": 5,
+      "categoria": "Cotillón y fiestas"
     },
     {
-      "name": "NUEVO ROSARIO AUNINS",
+      "name": "ULTIMO Y YA",
       "minor": "$42.00",
-      "major": "$38.00",
-      "cantidad": 10
+      "major": "$40.00",
+      "cantidad": 5,
+      "categoria": "Varios y accesorios"
     }
   ]
 }
