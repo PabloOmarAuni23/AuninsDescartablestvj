@@ -30,7 +30,7 @@ env:
   CARPETA_DRIVE: "https://drive.google.com/drive/folders/1deN3y9wsatVuNk_coG9nMWe2F0P_7Qv_"
   # ID de la Google Sheet "listado-precios": es la planilla que se edita a mano.
   # Se baja directo por ID para no depender de qué archivos haya en la carpeta.
-  SHEET_ID: "1kYNYTLA2BjPgWNtGw5GO1OVzXPsS_D0thsgD3trYAjk"
+  SHEET_ID: "1y3e341bygLkaqV_iVSipuS90O66rWvqtw2grXOjYhZs"
 
 jobs:
   sincronizar:

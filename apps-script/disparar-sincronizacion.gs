@@ -8,7 +8,7 @@ el workflow "Sincronizar catálogo desde Google Drive" se ejecute YA mismo, sin
 esperar al cron de los 30 minutos.
 
 Cómo instalarlo (una sola vez):
-  1) Abrí la planilla https://docs.google.com/spreadsheets/d/1kYNYTLA2BjPgWNtGw5GO1OVzXPsS_D0thsgD3trYAjk
+  1) Abrí la planilla https://docs.google.com/spreadsheets/d/1y3e341bygLkaqV_iVSipuS90O66rWvqtw2grXOjYhZs
   2) Menú Extensiones > Apps Script.
   3) Borrá el contenido de Código.gs y pegá este archivo completo.
   4) Creá el token: GitHub > Settings > Developer settings > Personal access
