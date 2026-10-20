@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 145" role="img" aria-labelledby="title desc">
+  <title id="title">AUNINS Descartables TVJ</title>
+  <desc id="desc">Logotipo azul de AUNINS Descartables TVJ con un vaso descartable sonriente y una pajita verde.</desc>
+  <g fill="#102d45" font-family="Arial, Helvetica, sans-serif">
+    <text x="8" y="66" font-size="55" letter-spacing="1">AUNINS</text>
+    <text x="8" y="108" font-size="35">Descartables TVJ</text>
+  </g>
+  <g stroke="#102d45" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M393 25 411 5 464 10 462 20 416 17 404 35" fill="none" stroke="#27452c" stroke-width="9"/>
+    <path d="m393 25 18-20 53 5-2 10-46-3-12 18" fill="none" stroke="#83b83f" stroke-width="5"/>
+    <path d="M368 47c15-9 45-9 58 1l-5 12h-56z" fill="#e8f4f8"/>
+    <path d="M367 59c2-8 54-8 58 0l-9 56c-2 13-9 20-23 20h-1c-14 0-22-7-25-19l-11-49c-1-4 3-7 11-8z" fill="#087cc4"/>
+    <path d="M376 52c7-5 33-6 43 0" fill="none" stroke="#7894a2" stroke-width="3"/>
+    <ellipse cx="388" cy="82" rx="10" ry="15" fill="#fff"/>
+    <ellipse cx="411" cy="80" rx="9" ry="14" fill="#fff"/>
+    <ellipse cx="390" cy="84" rx="4" ry="7" fill="#102d45" stroke="none"/>
+    <ellipse cx="412" cy="82" rx="4" ry="7" fill="#102d45" stroke="none"/>
+    <path d="M382 101c12 13 31 14 43-1-12 5-27 5-43 1z" fill="#fff"/>
+    <path d="M398 106v7" fill="none" stroke-width="2"/>
+    <path d="M377 119c12 8 29 9 43 0" fill="none" stroke="#07558a" stroke-width="3"/>
+    <path d="M459 70c-7-4-11-3-15 2m17 14 7 2" fill="none" stroke="#42a9de" stroke-width="4"/>
+  </g>
+</svg>
