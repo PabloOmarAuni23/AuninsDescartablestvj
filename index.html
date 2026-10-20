@@ -380,6 +380,71 @@
         font-weight: 700;
     }
     #mensaje-error a:hover { text-decoration: underline; }
+    .ubicacion-link { white-space: nowrap; }
+    .negocio-card {
+        display: grid;
+        grid-template-columns: minmax(0, 1.5fr) minmax(260px, 1fr);
+        gap: 20px;
+        background: linear-gradient(135deg, #171717, #101820);
+        border: 1px solid var(--color-borde);
+        border-radius: var(--radio);
+        padding: 22px 24px;
+        margin-bottom: 24px;
+        box-shadow: var(--sombra);
+    }
+    .negocio-card h2 { font-size: 19px; color: var(--color-blanco); margin-bottom: 4px; }
+    .negocio-tipo { color: var(--color-texto-claro); font-size: 14px; }
+    .negocio-rating { color: #ffd166; font-weight: 700; margin-top: 10px; }
+    .negocio-rating span { color: var(--color-texto-claro); font-size: 13px; font-weight: 400; }
+    .negocio-datos { display: grid; gap: 8px; margin-top: 16px; }
+    .negocio-datos a, .negocio-datos p { color: var(--color-texto); text-decoration: none; font-size: 14px; }
+    .negocio-datos a:hover { color: var(--color-secundario); }
+    .negocio-servicios { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .negocio-servicios span { padding: 5px 10px; background: rgba(255,255,255,.07); border: 1px solid var(--color-borde); border-radius: 20px; font-size: 12px; }
+    .horarios h3 { color: var(--color-texto); font-size: 14px; margin-bottom: 8px; }
+    .horarios table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .horarios td { padding: 4px 0; color: var(--color-texto-claro); vertical-align: top; }
+    .horarios td:last-child { text-align: right; color: var(--color-texto); padding-left: 12px; }
+    .resultados-barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin: 8px 0 12px;
+        color: var(--color-texto-claro);
+        font-size: 14px;
+    }
+    .resultados-barra strong { color: var(--color-texto); }
+    .productos-grid { scroll-margin-top: 150px; }
+    .volver-arriba {
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 110;
+        width: 48px;
+        height: 48px;
+        border: 1px solid var(--color-secundario);
+        border-radius: 50%;
+        background: var(--color-secundario);
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        box-shadow: var(--sombra);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(8px);
+        transition: opacity .2s, transform .2s, visibility .2s;
+    }
+    .volver-arriba.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+    @media (max-width: 600px) {
+        header { padding: 16px; }
+        .contenido-principal { padding: 18px 16px; }
+        .acciones-header { width: 100%; }
+        .acciones-header .btn { flex: 1; text-align: center; }
+        .resultados-barra { align-items: flex-start; flex-direction: column; }
+        .productos-grid { grid-template-columns: 1fr; scroll-margin-top: 180px; }
+        .negocio-card { grid-template-columns: 1fr; padding: 18px; }
+    }
 </style>
 </head>
 <body>
@@ -394,12 +459,38 @@
                 </div>
             </div>
             <div class="acciones-header">
+                <a class="btn btn-secundario ubicacion-link" href="https://maps.app.goo.gl/y8Ybh2pKzhpbWgwx5" target="_blank" rel="noopener noreferrer">Ver en Maps</a>
                 <button class="btn btn-secundario" id="btn-refrescar">Refrescar</button>
             </div>
         </div>
     </header>
 
     <main class="contenido-principal">
+
+        <section class="negocio-card" aria-labelledby="titulo-negocio">
+            <div>
+                <h2 id="titulo-negocio">AUNINS DESCARTABLES TVJ</h2>
+                <p class="negocio-tipo">Tienda de artículos de cocina · Tafí Viejo, Tucumán</p>
+                <p class="negocio-rating" aria-label="Calificación 4.7 sobre 5">★ 4,7 <span>· 13 opiniones en Google</span></p>
+                <div class="negocio-datos">
+                    <a href="https://maps.app.goo.gl/y8Ybh2pKzhpbWgwx5" target="_blank" rel="noopener noreferrer">📍 Av. del Perú Nte. 680, T4103 Tafí Viejo, Tucumán</a>
+                    <a href="tel:+543816984654">☎ 0381 698-4654</a>
+                    <a href="https://www.instagram.com/auninsdescartablestvj/" target="_blank" rel="noopener noreferrer">◎ Instagram: @auninsdescartablestvj</a>
+                    <a href="https://www.facebook.com/p/Aunins-Descartables-61593954570461/" target="_blank" rel="noopener noreferrer">f Facebook: Aunins Descartables</a>
+                </div>
+                <div class="negocio-servicios"><span>Compras en tienda</span><span>Entrega a domicilio</span></div>
+            </div>
+            <div class="horarios">
+                <h3>Horarios informados en Google Maps</h3>
+                <table>
+                    <tbody>
+                        <tr><td>Lunes a viernes</td><td>9:30–13:00 y 17:30–21:00</td></tr>
+                        <tr><td>Sábado</td><td>5:30–1:00</td></tr>
+                        <tr><td>Domingo</td><td>Cerrado</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
         <!-- ===== INSTRUCCIONES RÁPIDAS ===== -->
         <section class="instrucciones">
@@ -435,7 +526,8 @@
         <div id="mensaje-carga">⏳ Cargando productos...</div>
         <div id="mensaje-error">❌ Error al cargar los productos. <a href="#" id="btn-reintentar">Intentar de nuevo</a></div>
 
-        <section class="productos-grid"></section>
+        <div class="resultados-barra" aria-live="polite"><span id="estado-resultados">Cargando resultados…</span></div>
+        <section class="productos-grid" id="resultados"></section>
 
         <section class="resumen">
             <div class="resumen-titulo">📊 Resumen de selección</div>
@@ -455,6 +547,8 @@
             </div>
         </section>
     </main>
+
+    <button class="volver-arriba" id="btn-volver-arriba" type="button" aria-label="Volver al principio" title="Volver al principio">↑</button>
 
     <script src="script.js"></script>
 </body>

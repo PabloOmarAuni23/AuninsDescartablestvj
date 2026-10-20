@@ -27,6 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const resumenItems = document.getElementById("resumen-items");
     const resumenMinor = document.getElementById("resumen-minor");
     const resumenMajor = document.getElementById("resumen-major");
+    const estadoResultados = document.getElementById("estado-resultados");
+    const btnVolverArriba = document.getElementById("btn-volver-arriba");
+
+    function mostrarResultados() {
+        const resultados = document.getElementById("resultados");
+        if (resultados) resultados.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
 
     // Intentar leer el archivo JSON de productos (reintentable).
     // peticionId evita que una respuesta vieja (lenta) pise a la más reciente.
@@ -138,7 +145,15 @@ document.addEventListener("DOMContentLoaded", () => {
             btnBuscar.addEventListener("click", () => {
                 textoBusqueda = buscador ? buscador.value : "";
                 renderizarTarjetas();
+                mostrarResultados();
             });
+        }
+
+        if (btnVolverArriba) {
+            btnVolverArriba.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+            const actualizarBotonArriba = () => btnVolverArriba.classList.toggle("visible", window.scrollY > 350);
+            window.addEventListener("scroll", actualizarBotonArriba, { passive: true });
+            actualizarBotonArriba();
         }
     }
 
@@ -210,6 +225,12 @@ document.addEventListener("DOMContentLoaded", () => {
             return coincideCat && coincideBusqueda;
         });
 
+        if (estadoResultados) {
+            const categoria = categoriaActual === "todos" ? "todas las categorías" : categoriaActual;
+            const busqueda = textoBusqueda.trim() ? ` para “${textoBusqueda.trim()}”` : "";
+            estadoResultados.innerHTML = `<span><strong>${filtrados.length}</strong> resultado${filtrados.length === 1 ? "" : "s"} en ${categoria}${busqueda}</span>`;
+        }
+
         if (filtrados.length === 0) {
             gridProductos.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--color-texto-claro); padding: 20px;">No se encontraron artículos que coincidan.</div>`;
             return;
@@ -266,6 +287,7 @@ document.addEventListener("DOMContentLoaded", () => {
             btn.classList.add("activo");
             categoriaActual = btn.getAttribute("data-categoria") || "todos";
             renderizarTarjetas();
+            mostrarResultados();
         });
 
         // Botón para limpiar todos los artículos marcados de golpe
